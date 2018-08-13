@@ -7,7 +7,7 @@ if len(sys.argv) < 2:
 
 
 with open(sys.argv[1],'r') as file:
-    p = mf2py.Parser(doc=file)
+    p = mf2py.Parser(doc=file, url='http://example.com/')
     res = json.loads(p.to_json())
     del res['debug']
     print(json.dumps(res))

@@ -11,6 +11,6 @@ $handle = fopen($my_file, 'r');
 $data = fread($handle,filesize($my_file));
 fclose($handle);
 
-$output = Mf2\parse($data);
+$output = Mf2\parse($data, 'http://example.com/');
 
 echo( json_encode($output) . "\n");
