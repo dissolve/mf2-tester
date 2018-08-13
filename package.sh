@@ -18,9 +18,20 @@ font-size:10px;
 </style>
 <body>
 <h1>Test Results</h1>
+<div><a href='https://github.com/dissolve/mf2-tester'>Source</a></div>
 <br><br><br>
 <table>" > dist/index.html
-echo "<tr><th>Test</th><th>Test Suite</th><th>PHP</th><th>Python</th><th>Ruby</th></tr>" >> dist/index.html
+TEST_SUITE_VERSION=`bash scripts/tests-version.sh`;
+PHP_VERSION=`bash scripts/php-version.sh`;
+PYTHON_VERSION=`python scripts/python-version.py`;
+RUBY_VERSION=`ruby scripts/ruby-version.rb`;
+echo "<tr>
+<th>Test</th>
+<th>Test Suite <div class='version'>$TEST_SUITE_VERSION</div></th>
+<th>PHP <div class='version'>$PHP_VERSION</div></th>
+<th>Python <div class='version'>$PYTHON_VERSION</div></th>
+<th>Ruby <div class='version'>$RUBY_VERSION</div></th>
+</tr>" >> dist/index.html
 for f in vendor/mf2/tests/tests/microformats-*/*/*.json ; 
     do 
         RESULT=`echo $f |sed s/vendor.mf2.tests.tests/test-results/`;
