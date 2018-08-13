@@ -1,0 +1,8 @@
+*.swp
+php
+ruby
+python
+tests
+test-results
+dist
+vendor
