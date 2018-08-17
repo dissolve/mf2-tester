@@ -28,11 +28,18 @@ RUBY_VERSION=`ruby scripts/ruby-version.rb`;
 echo "<tr>
 <th>Test</th>
 <th>Test Suite <div class='version'>$TEST_SUITE_VERSION</div></th>
+<th>Go <div class='version'></div></th>
 <th>PHP <div class='version'>$PHP_VERSION</div></th>
 <th>Python <div class='version'>$PYTHON_VERSION</div></th>
 <th>Ruby <div class='version'>$RUBY_VERSION</div></th>
-<th>Go <div class='version'></div></th>
 </tr>" >> dist/index.html
+
+TOTAL=0
+PHP_PASS_COUNT=0
+PYTHON_PASS_COUNT=0
+RUBY_PASS_COUNT=0
+GO_PASS_COUNT=0
+
 for f in vendor/mf2/tests/tests/microformats-*/*/*.json ; 
     do 
         RESULT=`echo $f |sed s/vendor.mf2.tests.tests/test-results/`;
@@ -51,11 +58,25 @@ for f in vendor/mf2/tests/tests/microformats-*/*/*.json ;
         RESULT_MD5=`md5sum $RESULT |cut -d ' ' -f 1`;
         CLASS="pass";
         echo '<td class="'$CLASS'">Test Suite: <a href="'$RESULT'">View</a><br><span class="md5">'$RESULT_MD5'</span></td>' >> dist/index.html;
+        TOTAL=$[$TOTAL + 1]
+
+
+        GO_RESULT_MD5=`md5sum $GO_RESULT |cut -d ' ' -f 1`;
+        if [ "$RESULT_MD5" = "$GO_RESULT_MD5" ]; then
+            echo "<td class='pass'>Result: <a href='$GO_RESULT'>View</a> <br><span class='md5'>$GO_RESULT_MD5</span></td>" >> dist/index.html;
+            GO_PASS_COUNT=$[$GO_PASS_COUNT + 1]
+        else
+            diff $RESULT $GO_RESULT > $GO_RESULT.diff.txt
+            echo "<td class='fail'>Result: <a href='$GO_RESULT'>View</a> <br><span class='md5'>$GO_RESULT_MD5</span>
+            <div class='diff'><a href='$GO_RESULT.diff.txt'>Diff</a></div>
+            </td>" >> dist/index.html;
+        fi
 
         PHP_RESULT_MD5=`md5sum $PHP_RESULT |cut -d ' ' -f 1`;
 
         if [ "$RESULT_MD5" = "$PHP_RESULT_MD5" ]; then
             echo "<td class='pass'>Result: <a href='$PHP_RESULT'>View</a> <br><span class='md5'>$PHP_RESULT_MD5</span></td>" >> dist/index.html;
+            PHP_PASS_COUNT=$[$PHP_PASS_COUNT + 1]
         else
             diff $RESULT $PHP_RESULT > $PHP_RESULT.diff.txt
             echo "<td class='fail'>Result: <a href='$PHP_RESULT'>View</a> <br><span class='md5'>$PHP_RESULT_MD5</span>
@@ -66,6 +87,7 @@ for f in vendor/mf2/tests/tests/microformats-*/*/*.json ;
         PYTHON_RESULT_MD5=`md5sum $PYTHON_RESULT |cut -d ' ' -f 1`;
         if [ "$RESULT_MD5" = "$PYTHON_RESULT_MD5" ]; then
             echo "<td class='pass'>Result: <a href='$PYTHON_RESULT'>View</a> <br><span class='md5'>$PYTHON_RESULT_MD5</span></td>" >> dist/index.html;
+            PYTHON_PASS_COUNT=$[$PYTHON_PASS_COUNT + 1]
         else
             diff $RESULT $PYTHON_RESULT > $PYTHON_RESULT.diff.txt
             echo "<td class='fail'>Result: <a href='$PYTHON_RESULT'>View</a> <br><span class='md5'>$PYTHON_RESULT_MD5</span>
@@ -76,22 +98,25 @@ for f in vendor/mf2/tests/tests/microformats-*/*/*.json ;
         RUBY_RESULT_MD5=`md5sum $RUBY_RESULT |cut -d ' ' -f 1`;
         if [ "$RESULT_MD5" = "$RUBY_RESULT_MD5" ]; then
             echo "<td class='pass'>Result: <a href='$RUBY_RESULT'>View</a> <br><span class='md5'>$RUBY_RESULT_MD5</span></td>" >> dist/index.html;
+            RUBY_PASS_COUNT=$[$RUBY_PASS_COUNT + 1]
         else
             diff $RESULT $RUBY_RESULT > $RUBY_RESULT.diff.txt
             echo "<td class='fail'>Result: <a href='$RUBY_RESULT'>View</a> <br><span class='md5'>$RUBY_RESULT_MD5</span>
             <div class='diff'><a href='$RUBY_RESULT.diff.txt'>Diff</a></div>
             </td>" >> dist/index.html;
         fi
-
-        GO_RESULT_MD5=`md5sum $GO_RESULT |cut -d ' ' -f 1`;
-        if [ "$RESULT_MD5" = "$GO_RESULT_MD5" ]; then
-            echo "<td class='pass'>Result: <a href='$GO_RESULT'>View</a> <br><span class='md5'>$GO_RESULT_MD5</span></td>" >> dist/index.html;
-        else
-            diff $RESULT $GO_RESULT > $GO_RESULT.diff.txt
-            echo "<td class='fail'>Result: <a href='$GO_RESULT'>View</a> <br><span class='md5'>$GO_RESULT_MD5</span>
-            <div class='diff'><a href='$GO_RESULT.diff.txt'>Diff</a></div>
-            </td>" >> dist/index.html;
-        fi
+        echo '</tr>' >> dist/index.html;
 
 done;
-echo "</table></body></html>" >> dist/index.html
+echo "
+<tr>
+<td></td>
+<td></td> 
+<td>$GO_PASS_COUNT of $TOTAL passed</td> 
+<td>$PHP_PASS_COUNT of $TOTAL passed</td> 
+<td>$PYTHON_PASS_COUNT of $TOTAL passed</td> 
+<td>$RUBY_PASS_COUNT of $TOTAL passed</td> 
+</tr>
+</table>
+</body>
+</html>" >> dist/index.html
