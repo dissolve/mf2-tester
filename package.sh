@@ -84,12 +84,14 @@ for f in vendor/mf2/tests/tests/microformats-*/*/*.json ;
         fi
 
         GO_RESULT_MD5=`md5sum $GO_RESULT |cut -d ' ' -f 1`;
-        CLASS="fail";
         if [ "$RESULT_MD5" = "$GO_RESULT_MD5" ]; then
-            CLASS="pass";
+            echo "<td class='pass'>Result: <a href='$GO_RESULT'>View</a> <br><span class='md5'>$GO_RESULT_MD5</span></td>" >> dist/index.html;
+        else
+            diff $RESULT $GO_RESULT > $GO_RESULT.diff.txt
+            echo "<td class='fail'>Result: <a href='$GO_RESULT'>View</a> <br><span class='md5'>$GO_RESULT_MD5</span>
+            <div class='diff'><a href='$GO_RESULT.diff.txt'>Diff</a></div>
+            </td>" >> dist/index.html;
         fi
-        #echo '<td class="'$CLASS'"><a href="'$GO_RESULT'">'$GO_RESULT_MD5'</a></td>' >> dist/index.html;
-        echo '<td class="'$CLASS'">Result: <a href="'$GO_RESULT'">View</a><br><span class="md5">'$GO_RESULT_MD5'</span></td>' >> dist/index.html;
 
 done;
 echo "</table></body></html>" >> dist/index.html
