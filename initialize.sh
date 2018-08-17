@@ -1,6 +1,6 @@
 #!/bin/bash
 #set up lang dirs
-for lang in ruby php python; do 
+for lang in ruby php python go; do 
     for f in vendor/mf2/tests/tests/microformats-*/* ; 
         do mkdir -p `echo $f |sed s/vendor.mf2.tests.tests/$lang/`;
     done;
