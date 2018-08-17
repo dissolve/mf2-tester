@@ -12,8 +12,8 @@ table, th, td {
    border: 1px solid black;
    text-align:center;
 }
-.md5{
-font-size:10px;
+.md5, .diff{
+    font-size:10px;
 }
 </style>
 <body>
@@ -48,33 +48,38 @@ for f in vendor/mf2/tests/tests/microformats-*/*/*.json ;
 
         RESULT_MD5=`md5sum $RESULT |cut -d ' ' -f 1`;
         CLASS="pass";
-        #echo '<td class="'$CLASS'"><a href="'$RESULT'">'$RESULT_MD5'</a></td>' >> dist/index.html;
         echo '<td class="'$CLASS'">Test Suite: <a href="'$RESULT'">View</a><br><span class="md5">'$RESULT_MD5'</span></td>' >> dist/index.html;
 
         PHP_RESULT_MD5=`md5sum $PHP_RESULT |cut -d ' ' -f 1`;
 
-        CLASS="fail";
         if [ "$RESULT_MD5" = "$PHP_RESULT_MD5" ]; then
-            CLASS="pass";
+            echo "<td class='pass'>Result: <a href='$PHP_RESULT'>View</a> <br><span class='md5'>$PHP_RESULT_MD5</span></td>" >> dist/index.html;
+        else
+            diff $RESULT $PHP_RESULT > $PHP_RESULT.diff.txt
+            echo "<td class='fail'>Result: <a href='$PHP_RESULT'>View</a> <br><span class='md5'>$PHP_RESULT_MD5</span>
+            <div class='diff'><a href='$PHP_RESULT.diff.txt'>Diff</a></div>
+            </td>" >> dist/index.html;
         fi
-        #echo '<td class="'$CLASS'"><a href="'$PHP_RESULT'">'$PHP_RESULT_MD5'</a></td>' >> dist/index.html;
-        echo '<td class="'$CLASS'">Result: <a href="'$PHP_RESULT'">View</a> <br><span class="md5">'$PHP_RESULT_MD5'</span></td>' >> dist/index.html;
 
         PYTHON_RESULT_MD5=`md5sum $PYTHON_RESULT |cut -d ' ' -f 1`;
-        CLASS="fail";
         if [ "$RESULT_MD5" = "$PYTHON_RESULT_MD5" ]; then
-            CLASS="pass";
+            echo "<td class='pass'>Result: <a href='$PYTHON_RESULT'>View</a> <br><span class='md5'>$PYTHON_RESULT_MD5</span></td>" >> dist/index.html;
+        else
+            diff $RESULT $PYTHON_RESULT > $PYTHON_RESULT.diff.txt
+            echo "<td class='fail'>Result: <a href='$PYTHON_RESULT'>View</a> <br><span class='md5'>$PYTHON_RESULT_MD5</span>
+            <div class='diff'><a href='$PYTHON_RESULT.diff.txt'>Diff</a></div>
+            </td>" >> dist/index.html;
         fi
-        #echo '<td class="'$CLASS'"><a href="'$PYTHON_RESULT'">'$PYTHON_RESULT_MD5'</a></td>' >> dist/index.html;
-        echo '<td class="'$CLASS'">Result: <a href="'$PYTHON_RESULT'">View</a><br><span class="md5">'$PYTHON_RESULT_MD5'</span></td>' >> dist/index.html;
 
         RUBY_RESULT_MD5=`md5sum $RUBY_RESULT |cut -d ' ' -f 1`;
-        CLASS="fail";
         if [ "$RESULT_MD5" = "$RUBY_RESULT_MD5" ]; then
-            CLASS="pass";
+            echo "<td class='pass'>Result: <a href='$RUBY_RESULT'>View</a> <br><span class='md5'>$RUBY_RESULT_MD5</span></td>" >> dist/index.html;
+        else
+            diff $RESULT $RUBY_RESULT > $RUBY_RESULT.diff.txt
+            echo "<td class='fail'>Result: <a href='$RUBY_RESULT'>View</a> <br><span class='md5'>$RUBY_RESULT_MD5</span>
+            <div class='diff'><a href='$RUBY_RESULT.diff.txt'>Diff</a></div>
+            </td>" >> dist/index.html;
         fi
-        #echo '<td class="'$CLASS'"><a href="'$RUBY_RESULT'">'$RUBY_RESULT_MD5'</a></td>' >> dist/index.html;
-        echo '<td class="'$CLASS'">Result: <a href="'$RUBY_RESULT'">View</a><br><span class="md5">'$RUBY_RESULT_MD5'</span></td>' >> dist/index.html;
 
 done;
 echo "</table></body></html>" >> dist/index.html

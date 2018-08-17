@@ -20,5 +20,5 @@ done;
 #format test results
 for f in vendor/mf2/tests/tests/microformats-*/*/*.json ; 
     do cp `echo $f |sed s/json/html/` `echo $f |sed s/vendor.mf2.tests.tests/tests/|sed s/json/txt/`;
-    cat $f |jq -S . |sed 's/\[\]/{}/g' >  `echo $f |sed s/vendor.mf2.tests.tests/test-results/`;
+    cat $f |jq -S -f normalize.jq |sed 's/\[\]/{}/g' >  `echo $f |sed s/vendor.mf2.tests.tests/test-results/`;
 done;
