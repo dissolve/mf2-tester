@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -rf dist
 mkdir dist
-cp -r ruby python php tests test-results dist/
+cp -r ruby python php go tests test-results dist/
 
 echo "
 <html>
@@ -31,6 +31,7 @@ echo "<tr>
 <th>PHP <div class='version'>$PHP_VERSION</div></th>
 <th>Python <div class='version'>$PYTHON_VERSION</div></th>
 <th>Ruby <div class='version'>$RUBY_VERSION</div></th>
+<th>Go <div class='version'></div></th>
 </tr>" >> dist/index.html
 for f in vendor/mf2/tests/tests/microformats-*/*/*.json ; 
     do 
@@ -40,6 +41,7 @@ for f in vendor/mf2/tests/tests/microformats-*/*/*.json ;
         PHP_RESULT=`echo $RESULT |sed s/test-results/php/`;
         PYTHON_RESULT=`echo $RESULT |sed s/test-results/python/`;
         RUBY_RESULT=`echo $RESULT |sed s/test-results/ruby/`;
+        GO_RESULT=`echo $RESULT |sed s/test-results/go/`;
 
         NAME=`echo $TEST |sed s/tests//|sed s/.txt//|sed 's/\//<br>/g'`;
 
@@ -80,6 +82,14 @@ for f in vendor/mf2/tests/tests/microformats-*/*/*.json ;
             <div class='diff'><a href='$RUBY_RESULT.diff.txt'>Diff</a></div>
             </td>" >> dist/index.html;
         fi
+
+        GO_RESULT_MD5=`md5sum $GO_RESULT |cut -d ' ' -f 1`;
+        CLASS="fail";
+        if [ "$RESULT_MD5" = "$GO_RESULT_MD5" ]; then
+            CLASS="pass";
+        fi
+        #echo '<td class="'$CLASS'"><a href="'$GO_RESULT'">'$GO_RESULT_MD5'</a></td>' >> dist/index.html;
+        echo '<td class="'$CLASS'">Result: <a href="'$GO_RESULT'">View</a><br><span class="md5">'$GO_RESULT_MD5'</span></td>' >> dist/index.html;
 
 done;
 echo "</table></body></html>" >> dist/index.html

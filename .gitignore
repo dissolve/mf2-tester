@@ -2,6 +2,7 @@
 php
 ruby
 python
+go
 tests
 test-results
 dist
