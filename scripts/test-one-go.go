@@ -2,6 +2,7 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"net/url"
@@ -22,5 +23,12 @@ func main() {
 	data := microformats.Parse(f, baseURL)
 
 	json, _ := json.MarshalIndent(data, "", "  ")
+
+	// unescape apostophes that golang.org/x/net/html insists on escpaing
+	json = bytes.Replace(json, []byte(`\u0026#39;`), []byte(`'`), -1)
+	// golang.org/x/net/html doesn't put a space at the end of self-closing
+	// tags, but at least one test case expects it.
+	json = bytes.Replace(json, []byte(`"/>`), []byte(`" />`), -1)
+
 	fmt.Println(string(json))
 }
