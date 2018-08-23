@@ -1,0 +1,10 @@
+{
+  "name": "mf2-tester",
+  "description": "test microformats in various parsers.",
+  "repository": "https://github.com/dissolve/mf2-tester",
+  "version": "0.1.0",
+  "devDependencies": {
+    "microformat-node": "*"
+  },
+  "dependencies": {}
+}
