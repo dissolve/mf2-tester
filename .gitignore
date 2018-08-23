@@ -1,9 +1,13 @@
 *.swp
+vendor
+node_modules
+
 php
 ruby
 python
 go
+node
+
 tests
 test-results
 dist
-vendor

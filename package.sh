@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -rf dist
 mkdir dist
-cp -r ruby python php go tests test-results dist/
+cp -r ruby node python php go tests test-results dist/
 
 echo "
 <html>
@@ -22,6 +22,7 @@ table, th, td {
 <br><br><br>
 <table>" > dist/index.html
 TEST_SUITE_VERSION=`bash scripts/tests-version.sh`;
+NODE_VERSION=`node scripts/node-version.js`;
 PHP_VERSION=`bash scripts/php-version.sh`;
 PYTHON_VERSION=`python scripts/python-version.py`;
 RUBY_VERSION=`ruby scripts/ruby-version.rb`;
@@ -29,12 +30,14 @@ echo "<tr>
 <th>Test</th>
 <th>Test Suite <div class='version'>$TEST_SUITE_VERSION</div></th>
 <th>Go <div class='version'></div></th>
+<th>Node <div class='version'>$NODE_VERSION</div></th>
 <th>PHP <div class='version'>$PHP_VERSION</div></th>
 <th>Python <div class='version'>$PYTHON_VERSION</div></th>
 <th>Ruby <div class='version'>$RUBY_VERSION</div></th>
 </tr>" >> dist/index.html
 
 TOTAL=0
+NODE_PASS_COUNT=0
 PHP_PASS_COUNT=0
 PYTHON_PASS_COUNT=0
 RUBY_PASS_COUNT=0
@@ -42,9 +45,10 @@ GO_PASS_COUNT=0
 
 for f in vendor/mf2/tests/tests/microformats-*/*/*.json ; 
     do 
-        RESULT=`echo $f |sed s/vendor.mf2.tests.tests/test-results/`;
+        RESULT=`echo $f |sed 's/vendor.mf2.tests.tests/dist\/test-results/'`;
         TEST=`echo $RESULT |sed s/test-results/tests/|sed s/json/txt/`;
 
+        NODE_RESULT=`echo $RESULT |sed s/test-results/node/`;
         PHP_RESULT=`echo $RESULT |sed s/test-results/php/`;
         PYTHON_RESULT=`echo $RESULT |sed s/test-results/python/`;
         RUBY_RESULT=`echo $RESULT |sed s/test-results/ruby/`;
@@ -69,6 +73,18 @@ for f in vendor/mf2/tests/tests/microformats-*/*/*.json ;
             diff $RESULT $GO_RESULT > $GO_RESULT.diff.txt
             echo "<td class='fail'>Result: <a href='$GO_RESULT'>View</a> <br><span class='md5'>$GO_RESULT_MD5</span>
             <div class='diff'><a href='$GO_RESULT.diff.txt'>Diff</a></div>
+            </td>" >> dist/index.html;
+        fi
+
+        NODE_RESULT_MD5=`md5sum $NODE_RESULT |cut -d ' ' -f 1`;
+
+        if [ "$RESULT_MD5" = "$NODE_RESULT_MD5" ]; then
+            echo "<td class='pass'>Result: <a href='$NODE_RESULT'>View</a> <br><span class='md5'>$NODE_RESULT_MD5</span></td>" >> dist/index.html;
+            NODE_PASS_COUNT=$[$NODE_PASS_COUNT + 1]
+        else
+            diff $RESULT $NODE_RESULT > $NODE_RESULT.diff.txt
+            echo "<td class='fail'>Result: <a href='$NODE_RESULT'>View</a> <br><span class='md5'>$NODE_RESULT_MD5</span>
+            <div class='diff'><a href='$NODE_RESULT.diff.txt'>Diff</a></div>
             </td>" >> dist/index.html;
         fi
 
@@ -113,6 +129,7 @@ echo "
 <td></td>
 <td></td> 
 <td>$GO_PASS_COUNT of $TOTAL passed</td> 
+<td>$NODE_PASS_COUNT of $TOTAL passed</td> 
 <td>$PHP_PASS_COUNT of $TOTAL passed</td> 
 <td>$PYTHON_PASS_COUNT of $TOTAL passed</td> 
 <td>$RUBY_PASS_COUNT of $TOTAL passed</td> 
