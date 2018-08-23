@@ -21,12 +21,13 @@ TEST_SUITE_VERSION=`bash scripts/tests-version.sh`;
 
 echo "<tr>
 <th>Test</th>
-<th>Test Suite <div class='version'>$TEST_SUITE_VERSION</div></th>" >> results/index.html
+<th><a href='https://github.com/microformats/tests'>Test Suite</a><div class='version'>$TEST_SUITE_VERSION</div></th>" >> results/index.html
 
 for lang in `ls languages`; do 
     NAME=`cat languages/${lang}/label`
+    LINK=`cat languages/${lang}/link`
     VERSION=`bash languages/${lang}/version.sh`
-    echo "<th>$NAME <div class='version'>$VERSION</div></th>" >> results/index.html
+    echo "<th><a href='$LINK'>$NAME</a><div class='version'>$VERSION</div></th>" >> results/index.html
 done
 
 echo "</tr>" >> results/index.html
