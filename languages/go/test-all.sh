@@ -1,4 +1,5 @@
 #!/bin/bash
+rm languages/go/test-one 2>/dev/null
 go build -o ./languages/go/test-one ./languages/go/test-one.go
 
 for f in vendor/mf2/tests/tests/microformats-*/*/*.html ; 
