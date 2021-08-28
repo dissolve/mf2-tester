@@ -12,18 +12,8 @@ def process_html(html)
   puts JSON.pretty_generate(JSON[collection.to_json.to_s])
 end
 
-if STDIN.tty?
-  if ARGV[0].nil?
-    print_usage
-  else
-    process_html(ARGV[0])
-  end
+if ARGV[0].nil?
+  print_usage
 else
-  html = STDIN.read
-
-  if html.nil?
-    print_usage
-  else
-    process_html(html)
-  end
+  process_html(ARGV[0])
 end
