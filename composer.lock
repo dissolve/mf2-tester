@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7203d45e34ba8c3be74270e04ed5d282",
+    "content-hash": "c9cccaadbf934bc57429abbcef86073e",
     "packages": [
         {
             "name": "masterminds/html5",
@@ -133,12 +133,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/microformats/tests.git",
-                "reference": "30e8070"
+                "reference": "bef8e1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/microformats/tests/zipball/30e8070",
-                "reference": "30e8070",
+                "url": "https://api.github.com/repos/microformats/tests/zipball/bef8e1b",
+                "reference": "bef8e1b",
                 "shasum": ""
             },
             "type": "library",
@@ -154,7 +154,7 @@
             ],
             "description": "Microformats test suite",
             "homepage": "https://github.com/microformats/tests",
-            "time": "2018-08-23T17:56:46+00:00"
+            "time": "2020-05-11T15:20:21+00:00"
         },
         {
             "name": "tantek/cassis",
