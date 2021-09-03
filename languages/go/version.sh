@@ -1,4 +1,3 @@
 #!/bin/bash
 
-# use commit sha of the library as the version
-git -C "$(go env GOPATH)/src/willnorris.com/go/microformats" rev-parse --short HEAD 2>/dev/null
+go list -mod=mod -m willnorris.com/go/microformats | awk '{print $2}' | sed 's/^v//'

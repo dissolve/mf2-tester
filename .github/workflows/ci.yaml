@@ -1,0 +1,48 @@
+name: ci
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      # go
+      - uses: actions/setup-go@v2
+        with:
+          go-version: 1.17
+      - run: go get -u willnorris.com/go/microformats
+
+      # node / typescript
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - run: npm install
+
+      # python
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mf2py
+
+      # php
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: 7.4
+      - run: composer install
+
+      # ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem install microformats
+
+      - run: ./build.sh
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./results
