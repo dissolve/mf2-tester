@@ -11,3 +11,7 @@ to run
 
     ./build.sh
 
+#results
+results are published on github pages at
+
+https://dissolve.github.io/mf2-tester/
