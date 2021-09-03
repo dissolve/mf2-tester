@@ -1,0 +1,6 @@
+6,7c6,7
+<           "http://example.com/john@example.com",
+<           "http://example.com/john@example.com",
+---
+>           "john@example.com",
+>           "john@example.com",

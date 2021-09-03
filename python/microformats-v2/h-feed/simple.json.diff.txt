@@ -1,0 +1,8 @@
+10c10
+<                 "value": "Last week the microformats.org community \n\t            celebrated its 7th birthday at a gathering hosted by Mozilla in \n\t            San Francisco and recognized accomplishments, challenges, and \n\t            opportunities.\n\t\n\t        The microformats tagline “humans first, machines second” \n\t            forms the basis of many of our \n\t            principles, and \n\t            in that regard, we’d like to recognize a few people and \n\t            thank them for their years of volunteer service"
+---
+>                 "value": "Last week the microformats.org community celebrated its 7th birthday at a gathering hosted by Mozilla in San Francisco and recognized accomplishments, challenges, and opportunities.\nThe microformats tagline “humans first, machines second” forms the basis of many of our principles, and in that regard, we’d like to recognize a few people and thank them for their years of volunteer service"
+17c17
+<               "Last week the microformats.org community \n\t            celebrated its 7th birthday at a gathering hosted by Mozilla in \n\t            San Francisco and recognized accomplishments, challenges, and \n\t            opportunities."
+---
+>               "Last week the microformats.org community celebrated its 7th birthday at a gathering hosted by Mozilla in San Francisco and recognized accomplishments, challenges, and opportunities."

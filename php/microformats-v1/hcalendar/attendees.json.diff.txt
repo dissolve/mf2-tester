@@ -1,0 +1,105 @@
+4,15c4,19
+<       "properties": {
+<         "attendee": [
+<           {
+<             "properties": {
+<               "name": [
+<                 "Brian Warner"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Brian Warner"
+---
+>       "children": [
+>         {
+>           "properties": {
+>             "name": [
+>               "Brian Warner"
+>             ]
+>           },
+>           "type": [
+>             "h-card"
+>           ]
+>         },
+>         {
+>           "properties": {
+>             "name": [
+>               "Kyle Machulis"
+>             ]
+17,26c21,29
+<           {
+<             "properties": {
+<               "name": [
+<                 "Kyle Machulis"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Kyle Machulis"
+---
+>           "type": [
+>             "h-card"
+>           ]
+>         },
+>         {
+>           "properties": {
+>             "name": [
+>               "San Francisco"
+>             ]
+28,37c31,39
+<           {
+<             "properties": {
+<               "name": [
+<                 "Sid Sutter"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Sid Sutter"
+---
+>           "type": [
+>             "h-card"
+>           ]
+>         },
+>         {
+>           "properties": {
+>             "name": [
+>               "Sid Sutter"
+>             ]
+39,53c41,56
+<           {
+<             "properties": {
+<               "name": [
+<                 "Tantek Çelik"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Tantek Çelik"
+<           }
+<         ],
+<         "location": [
+<           "San Francisco"
+<         ],
+---
+>           "type": [
+>             "h-card"
+>           ]
+>         },
+>         {
+>           "properties": {
+>             "name": [
+>               "Tantek Çelik"
+>             ]
+>           },
+>           "type": [
+>             "h-card"
+>           ]
+>         }
+>       ],
+>       "properties": {

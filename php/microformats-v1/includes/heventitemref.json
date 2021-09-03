@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "children": [
+        {
+          "properties": {
+            "extended-address": [
+              "Room 10"
+            ]
+          },
+          "type": [
+            "h-card"
+          ]
+        }
+      ],
+      "properties": {},
+      "type": [
+        "h-event"
+      ]
+    },
+    {
+      "children": [
+        {
+          "properties": {
+            "extended-address": [
+              "Room 11"
+            ]
+          },
+          "type": [
+            "h-card"
+          ]
+        }
+      ],
+      "properties": {},
+      "type": [
+        "h-event"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

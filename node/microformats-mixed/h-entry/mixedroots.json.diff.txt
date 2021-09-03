@@ -1,0 +1,22 @@
+9,12c9
+<                 {
+<                   "alt": "Aaron Parecki",
+<                   "value": "https://aaronparecki.com/images/aaronpk.png"
+<                 }
+---
+>                 "https://aaronparecki.com/images/aaronpk.png"
+18,21c15
+<                 {
+<                   "alt": "Aaron Parecki",
+<                   "value": "https://aaronparecki.com/images/aaronpk.png"
+<                 }
+---
+>                 "https://aaronparecki.com/images/aaronpk.png"
+33c27
+<             "value": "Aaron Parecki"
+---
+>             "value": "aaronparecki.com\n    Aaron Parecki\n    Aaron Parecki"
+41c35
+<             "html": "Did you play\n    <a href=\"http://twitter.com/playmapattack\">@playmapattack</a>at\n    <a href=\"http://aaronparecki.com/tag/realtimeconf\">#<span class=\"p-category\">realtimeconf</span></a>? Here is some more info about how we built it!\n    <a href=\"http://pdx.esri.com/blog/2013/10/17/introducting-mapattack/\"><span class=\"protocol\">http://</span>pdx.esri.com/blog/2013/10/17/introducting-mapattack/</a>",
+---
+>             "html": "Did you play\n    <a href=\"http://twitter.com/playmapattack\">@playmapattack</a>at\n    <a href=\"http://aaronparecki.com/tag/realtimeconf\">#<span class=\"p-category\">realtimeconf</span></a>? Here is some more info about how we built it!\n    <a href=\"http://pdx.esri.com/blog/2013/10/17/introducting-mapattack/\"><span class=\"protocol\">http://</span>pdx.esri.com/blog/2013/10/17/introducting-mapattack/</a>\n  ",

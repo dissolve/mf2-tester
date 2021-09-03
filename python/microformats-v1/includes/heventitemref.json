@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "properties": {
+        "location": [
+          {
+            "properties": {
+              "extended-address": [
+                "Room 10"
+              ]
+            },
+            "type": [
+              "h-adr"
+            ],
+            "value": "Room 10"
+          }
+        ]
+      },
+      "type": [
+        "h-event"
+      ]
+    },
+    {
+      "properties": {
+        "location": [
+          {
+            "properties": {
+              "extended-address": [
+                "Room 11"
+              ]
+            },
+            "type": [
+              "h-adr"
+            ],
+            "value": "Room 11"
+          }
+        ]
+      },
+      "type": [
+        "h-event"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

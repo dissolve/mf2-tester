@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "properties": {
+        "family-name": [
+          "Invalid"
+        ],
+        "name": [
+          "JanInvalid"
+        ],
+        "org": [
+          {
+            "properties": {
+              "name": [
+                "Invalid"
+              ]
+            },
+            "type": [
+              "h-card"
+            ],
+            "value": "Invalid"
+          }
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

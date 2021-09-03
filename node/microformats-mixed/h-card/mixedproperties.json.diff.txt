@@ -1,0 +1,51 @@
+4,27d3
+<       "children": [
+<         {
+<           "properties": {
+<             "extended-address": [
+<               "Suite 207"
+<             ],
+<             "locality": [
+<               "San Francisco"
+<             ],
+<             "postal-code": [
+<               "94107"
+<             ],
+<             "region": [
+<               "CA"
+<             ],
+<             "street-address": [
+<               "665 3rd St."
+<             ]
+<           },
+<           "type": [
+<             "h-adr"
+<           ]
+<         }
+<       ],
+28a5,29
+>         "adr": [
+>           {
+>             "properties": {
+>               "extended-address": [
+>                 "Suite 207"
+>               ],
+>               "locality": [
+>                 "San Francisco"
+>               ],
+>               "postal-code": [
+>                 "94107"
+>               ],
+>               "region": [
+>                 "CA"
+>               ],
+>               "street-address": [
+>                 "665 3rd St."
+>               ]
+>             },
+>             "type": [
+>               "h-adr"
+>             ],
+>             "value": "665 3rd St.  \n        Suite 207  \n        San Francisco,  \n        CA  \n        94107  \n        U.S.A."
+>           }
+>         ],

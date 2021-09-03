@@ -1,0 +1,36 @@
+11,15c11,12
+<                     "country-name": [
+<                       "UK"
+<                     ],
+<                     "locality": [
+<                       "Cambridge"
+---
+>                     "name": [
+>                       "Cambridge UK"
+21c18
+<                   "value": "Cambridge \n            UK"
+---
+>                   "value": "Cambridge UK"
+56,66c53,54
+<               "average": [
+<                 "9.2"
+<               ],
+<               "best": [
+<                 "10"
+<               ],
+<               "count": [
+<                 "178"
+<               ],
+<               "rating": [
+<                 "9.2"
+---
+>               "name": [
+>                 "9.2 out of 10 based on 178 reviews"
+70c58
+<               "h-review-aggregate"
+---
+>               "h-review"
+72c60
+<             "value": "9.2 out of \n            10 \n            based on 178 reviews"
+---
+>             "value": "9.2 out of 10 based on 178 reviews"

@@ -1,0 +1,109 @@
+8a9,11
+>             ],
+>             "photo": [
+>               "http://example.com/john.html"
+16c19,23
+<       "properties": {},
+---
+>       "properties": {
+>         "name": [
+>           "Name"
+>         ]
+>       },
+27,32d33
+<             ],
+<             "photo": [
+<               {
+<                 "alt": "John Doe",
+<                 "value": "http://example.com/john.html"
+<               }
+37c38,39
+<           ]
+---
+>           ],
+>           "value": "JD"
+40c42,46
+<       "properties": {},
+---
+>       "properties": {
+>         "name": [
+>           "JD"
+>         ]
+>       },
+53,56c59
+<               {
+<                 "alt": "John Doe",
+<                 "value": "http://example.com/john.html"
+<               }
+---
+>               "http://example.com/john.html"
+61c64,65
+<           ]
+---
+>           ],
+>           "value": "Name"
+64c68,72
+<       "properties": {},
+---
+>       "properties": {
+>         "name": [
+>           "Name"
+>         ]
+>       },
+102c110
+<           "Jane Doe"
+---
+>           "John Doe, Mozilla"
+104,108c112,113
+<         "photo": [
+<           {
+<             "alt": "Jane Doe",
+<             "value": "http://example.com/jane.html"
+<           }
+---
+>         "org": [
+>           "Mozilla"
+121,124c126
+<           {
+<             "alt": "Jane Doe",
+<             "value": "http://example.com/jane.html"
+<           }
+---
+>           "http://example.com/jane.html"
+137,140c139
+<           {
+<             "alt": "Jane Doe",
+<             "value": "http://example.com/jane.html"
+<           }
+---
+>           "http://example.com/jane.html"
+150c149
+<           "John Doe Jr."
+---
+>           "Jane Doe"
+153,156c152
+<           {
+<             "alt": "Jr.",
+<             "value": "http://example.com/photo.jpg"
+<           }
+---
+>           "http://example.com/jane.html"
+166c162
+<           "Jane Doe"
+---
+>           "Jr."
+168,169c164,165
+<         "url": [
+<           "http://example.com/jane.html"
+---
+>         "photo": [
+>           "http://example.com/photo.jpg"
+204,205c200,204
+<         "org": [
+<           "Mozilla"
+---
+>         "name": [
+>           "Jane Doe"
+>         ],
+>         "url": [
+>           "http://example.com/jane.html"

@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "properties": {
+        "additional-name": [
+          "Peter"
+        ],
+        "family-name": [
+          "Doe"
+        ],
+        "given-name": [
+          "John"
+        ],
+        "honorific-suffix": [
+          "",
+          "",
+          "MSc",
+          "PHD"
+        ],
+        "name": [
+          "JohnDoe"
+        ],
+        "org": [
+          "Madgex",
+          "Mozilla"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

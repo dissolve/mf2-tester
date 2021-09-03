@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "properties": {
+        "contact": [
+          {
+            "properties": {
+              "job-title": [
+                "Director of the World Wide Web Foundation"
+              ],
+              "name": [
+                "Tim Berners-Lee"
+              ]
+            },
+            "type": [
+              "h-card"
+            ],
+            "value": "Tim Berners-Lee"
+          }
+        ],
+        "education": [
+          {
+            "properties": {
+              "description": [
+                "BA Hons (I) Physics"
+              ],
+              "end": [
+                "1976-06"
+              ],
+              "name": [
+                "The Queen's College, Oxford University"
+              ],
+              "org": [
+                "The Queen's College, Oxford University"
+              ],
+              "start": [
+                "1973-09"
+              ]
+            },
+            "type": [
+              "h-card",
+              "h-event"
+            ],
+            "value": "The Queen's College, Oxford University"
+          }
+        ],
+        "summary": [
+          "Invented the World Wide Web."
+        ]
+      },
+      "type": [
+        "h-resume"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

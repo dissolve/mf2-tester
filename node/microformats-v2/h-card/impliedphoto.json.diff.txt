@@ -1,0 +1,49 @@
+19c19,23
+<       "properties": {},
+---
+>       "properties": {
+>         "name": [
+>           "Jane Doe"
+>         ]
+>       },
+32,35c36
+<               {
+<                 "alt": "Jane Doe",
+<                 "value": "http://example.com/jane.jpeg"
+<               }
+---
+>               "http://example.com/jane.jpeg"
+40c41,42
+<           ]
+---
+>           ],
+>           "value": "Jane Doe"
+43c45,49
+<       "properties": {},
+---
+>       "properties": {
+>         "name": [
+>           "Jane Doe"
+>         ]
+>       },
+93,96c99
+<           {
+<             "alt": "Jane Doe",
+<             "value": "http://example.com/jane.jpeg"
+<           }
+---
+>           "http://example.com/jane.jpeg"
+109,112c112
+<           {
+<             "alt": "Jane Doe",
+<             "value": "http://example.com/jane.jpeg"
+<           }
+---
+>           "http://example.com/jane.jpeg"
+125,128c125
+<           {
+<             "alt": "Jane Doe",
+<             "value": "http://example.com/jane.jpeg"
+<           }
+---
+>           "http://example.com/jane.jpeg"

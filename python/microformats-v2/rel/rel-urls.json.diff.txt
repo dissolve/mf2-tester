@@ -1,0 +1,10 @@
+1a2,10
+>   "alternates": [
+>     {
+>       "hreflang": "fr",
+>       "media": "handheld",
+>       "rel": "home",
+>       "text": "French mobile homepage",
+>       "url": "http://example.com/fr"
+>     }
+>   ],

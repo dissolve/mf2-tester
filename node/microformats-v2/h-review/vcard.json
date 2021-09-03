@@ -1,0 +1,90 @@
+{
+  "items": [
+    {
+      "properties": {
+        "category": [
+          "crepe"
+        ],
+        "description": [
+          {
+            "html": "\n        <p class=\"p-item h-card\">\n        <span class=\"p-name p-org\">Crepes on Cole</span> is one of the best little \n        creperies in <span class=\"p-adr h-adr\"><span class=\"p-locality\">San Francisco</span></span>.\n        Excellent food and service. Plenty of tables in a variety of sizes \n        for parties large and small.  Window seating makes for excellent \n        people watching to/from the N-Judah which stops right outside.  \n        I've had many fun social gatherings here, as well as gotten \n        plenty of work done thanks to neighborhood WiFi.\n        </p>\n    ",
+            "value": "Crepes on Cole is one of the best little \n        creperies in San Francisco.\n        Excellent food and service. Plenty of tables in a variety of sizes \n        for parties large and small.  Window seating makes for excellent \n        people watching to/from the N-Judah which stops right outside.  \n        I've had many fun social gatherings here, as well as gotten \n        plenty of work done thanks to neighborhood WiFi."
+          }
+        ],
+        "item": [
+          {
+            "properties": {
+              "adr": [
+                {
+                  "properties": {
+                    "locality": [
+                      "San Francisco"
+                    ],
+                    "name": [
+                      "San Francisco"
+                    ]
+                  },
+                  "type": [
+                    "h-adr"
+                  ],
+                  "value": "San Francisco"
+                }
+              ],
+              "name": [
+                "Crepes on Cole"
+              ],
+              "org": [
+                "Crepes on Cole"
+              ]
+            },
+            "type": [
+              "h-card"
+            ],
+            "value": "Crepes on Cole"
+          }
+        ],
+        "name": [
+          "Crepes on Cole is awesome"
+        ],
+        "rating": [
+          "5"
+        ],
+        "reviewed": [
+          "2005-04-18"
+        ],
+        "reviewer": [
+          {
+            "properties": {
+              "name": [
+                "Tantek"
+              ]
+            },
+            "type": [
+              "h-card"
+            ],
+            "value": "Tantek"
+          }
+        ],
+        "url": [
+          "http://example.com/crepe"
+        ]
+      },
+      "type": [
+        "h-review"
+      ]
+    }
+  ],
+  "rel-urls": {
+    "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License": {
+      "rels": [
+        "license"
+      ],
+      "text": "Creative Commons Attribution-ShareAlike License"
+    }
+  },
+  "rels": {
+    "license": [
+      "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+    ]
+  }
+}

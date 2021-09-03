@@ -1,0 +1,80 @@
+4,28c4,16
+<       "properties": {
+<         "end": [
+<           "2012-06-27T16:45:00-0800"
+<         ],
+<         "location": [
+<           {
+<             "properties": {
+<               "extended-address": [
+<                 "Moscone Center",
+<                 "Room 10"
+<               ],
+<               "locality": [
+<                 "San Francisco"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Room 10\n    \n    Moscone Center,   \n    San Francisco"
+<           }
+<         ],
+<         "start": [
+<           "2012-06-27T15:45:00-0800"
+<         ]
+<       },
+---
+>       "children": [
+>         {
+>           "properties": {
+>             "extended-address": [
+>               "Room 10"
+>             ]
+>           },
+>           "type": [
+>             "h-card"
+>           ]
+>         }
+>       ],
+>       "properties": {},
+34,58c22,34
+<       "properties": {
+<         "end": [
+<           "2012-06-27T16:45:00-0800"
+<         ],
+<         "location": [
+<           {
+<             "properties": {
+<               "extended-address": [
+<                 "Moscone Center",
+<                 "Room 11"
+<               ],
+<               "locality": [
+<                 "San Francisco"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Room 11\n    \n    Moscone Center,   \n    San Francisco"
+<           }
+<         ],
+<         "start": [
+<           "2012-06-27T15:45:00-0800"
+<         ]
+<       },
+---
+>       "children": [
+>         {
+>           "properties": {
+>             "extended-address": [
+>               "Room 11"
+>             ]
+>           },
+>           "type": [
+>             "h-card"
+>           ]
+>         }
+>       ],
+>       "properties": {},

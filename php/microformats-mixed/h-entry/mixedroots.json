@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "properties": {
+        "author": [
+          {
+            "properties": {
+              "logo": [
+                "https://aaronparecki.com/images/aaronpk.png"
+              ],
+              "name": [
+                "Aaron Parecki"
+              ],
+              "photo": [
+                "https://aaronparecki.com/images/aaronpk.png"
+              ],
+              "uid": [
+                "https://aaronparecki.com/"
+              ],
+              "url": [
+                "https://aaronparecki.com/"
+              ]
+            },
+            "type": [
+              "h-card"
+            ],
+            "value": "Aaron Parecki"
+          }
+        ],
+        "category": [
+          "realtimeconf"
+        ],
+        "content": [
+          {
+            "html": "Did you play\n    <a href=\"http://twitter.com/playmapattack\">@playmapattack</a>at\n    <a href=\"http://aaronparecki.com/tag/realtimeconf\">#<span class=\"p-category\">realtimeconf</span></a>? Here is some more info about how we built it!\n    <a href=\"http://pdx.esri.com/blog/2013/10/17/introducting-mapattack/\"><span class=\"protocol\">http://</span>pdx.esri.com/blog/2013/10/17/introducting-mapattack/</a>",
+            "value": "Did you play @playmapattackat #realtimeconf? Here is some more info about how we built it! http://pdx.esri.com/blog/2013/10/17/introducting-mapattack/"
+          }
+        ],
+        "name": [
+          "Did you play @playmapattackat #realtimeconf? Here is some more info about how we built it! http://pdx.esri.com/blog/2013/10/17/introducting-mapattack/"
+        ]
+      },
+      "type": [
+        "h-entry"
+      ]
+    }
+  ],
+  "rel-urls": {
+    "https://aaronparecki.com/": {
+      "rels": [
+        "author"
+      ],
+      "text": "aaronparecki.com"
+    },
+    "https://plus.google.com/117847912875913905493": {
+      "rels": [
+        "author"
+      ],
+      "text": "Aaron Parecki"
+    }
+  },
+  "rels": {
+    "author": [
+      "https://aaronparecki.com/",
+      "https://plus.google.com/117847912875913905493"
+    ]
+  }
+}

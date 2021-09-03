@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "properties": {
+        "ingredient": [
+          {
+            "html": "Butter",
+            "value": "Butter"
+          },
+          {
+            "html": "Slice of bread",
+            "value": "Slice of bread"
+          }
+        ],
+        "name": [
+          "Toast"
+        ]
+      },
+      "type": [
+        "h-recipe"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

@@ -1,0 +1,15 @@
+12,15c12,15
+<                 {
+<                   "alt": "W3C",
+<                   "value": "http://www.w3.org/Icons/WWW/w3c_home_nb.png"
+<                 }
+---
+>                 "http://www.w3.org/Icons/WWW/w3c_home_nb.png"
+>               ],
+>               "url": [
+>                 "http://www.w3.org/"
+20,21c20
+<             ],
+<             "value": "W3C"
+---
+>             ]

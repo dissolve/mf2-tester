@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "properties": {
+        "country-name": [
+          "USA"
+        ],
+        "locality": [
+          "Redmond"
+        ],
+        "region": [
+          "Washington"
+        ]
+      },
+      "type": [
+        "h-adr"
+      ]
+    },
+    {
+      "properties": {
+        "start": [
+          "2012-10-30T11:45:00-08:00"
+        ]
+      },
+      "type": [
+        "h-event"
+      ]
+    },
+    {
+      "properties": {
+        "start": [
+          "2012-10-31T11:15:00-08:00"
+        ]
+      },
+      "type": [
+        "h-event"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

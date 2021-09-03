@@ -1,0 +1,71 @@
+5a6,75
+>           "Invalid"
+>         ]
+>       },
+>       "type": [
+>         "h-8-8-vendor-card"
+>       ]
+>     },
+>     {
+>       "properties": {
+>         "name": [
+>           "Invalid"
+>         ]
+>       },
+>       "type": [
+>         "h-8to8-ven1or-card"
+>       ]
+>     },
+>     {
+>       "properties": {
+>         "name": [
+>           "Invalid"
+>         ]
+>       },
+>       "type": [
+>         "h-car1d"
+>       ]
+>     },
+>     {
+>       "properties": {
+>         "name": [
+>           "Invalid"
+>         ]
+>       },
+>       "type": [
+>         "h-car_d"
+>       ]
+>     },
+>     {
+>       "properties": {
+>         "name": [
+>           "Invalid"
+>         ]
+>       },
+>       "type": [
+>         "h-vendor--card"
+>       ]
+>     },
+>     {
+>       "properties": {
+>         "name": [
+>           "Invalid"
+>         ]
+>       },
+>       "type": [
+>         "h-vendor-8card"
+>       ]
+>     },
+>     {
+>       "properties": {
+>         "name": [
+>           "Invalid"
+>         ]
+>       },
+>       "type": [
+>         "h-vendor-card-"
+>       ]
+>     },
+>     {
+>       "properties": {
+>         "name": [

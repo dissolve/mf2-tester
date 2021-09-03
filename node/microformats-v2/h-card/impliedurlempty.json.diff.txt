@@ -1,0 +1,33 @@
+9,11d8
+<             ],
+<             "url": [
+<               "http://example.com/"
+16c13,14
+<           ]
+---
+>           ],
+>           "value": "Jane Doe"
+19c17,21
+<       "properties": {},
+---
+>       "properties": {
+>         "name": [
+>           "Jane Doe"
+>         ]
+>       },
+28,30d29
+<         ],
+<         "url": [
+<           "http://example.com/"
+41,43d39
+<         ],
+<         "url": [
+<           "http://example.com/"
+54,56d49
+<         ],
+<         "url": [
+<           "http://example.com/"
+67,69d59
+<         ],
+<         "url": [
+<           "http://example.com/"

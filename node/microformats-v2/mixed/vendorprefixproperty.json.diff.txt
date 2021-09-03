@@ -1,0 +1,26 @@
+4a5,7
+>         "8-8-vendor-name": [
+>           "Invalid"
+>         ],
+7a11,13
+>         "8to8-ven1or-name": [
+>           "Invalid"
+>         ],
+10a17,22
+>         "nam1e": [
+>           "Invalid"
+>         ],
+>         "nam_e": [
+>           "Invalid"
+>         ],
+16a29,34
+>         "vendor--name": [
+>           "Invalid"
+>         ],
+>         "vendor-8name": [
+>           "Invalid"
+>         ],
+18a37,39
+>         ],
+>         "vendor-name-": [
+>           "Invalid"

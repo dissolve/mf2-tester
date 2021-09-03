@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "properties": {
+        "category": [
+          "Computer",
+          "Education"
+        ],
+        "description": [
+          {
+            "html": "The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It’s a capable little PC which can be used for many of the things that your desktop PC does, like spreadsheets, word-processing and games. It also plays high-definition video. We want to see it being used by kids all over the world to learn programming.",
+            "value": "The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It’s a capable little PC which can be used for many of the things that your desktop PC does, like spreadsheets, word-processing and games. It also plays high-definition video. We want to see it being used by kids all over the world to learn programming."
+          }
+        ],
+        "name": [
+          "Raspberry Pi"
+        ],
+        "photo": [
+          "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RaspberryPi.jpg/320px-RaspberryPi.jpg"
+        ],
+        "price": [
+          "£29.95"
+        ],
+        "review": [
+          {
+            "properties": {
+              "name": [
+                "4.5 out of 5"
+              ],
+              "rating": [
+                "4.5"
+              ]
+            },
+            "type": [
+              "h-review"
+            ],
+            "value": "4.5 out of 5"
+          }
+        ],
+        "url": [
+          "http://www.raspberrypi.org/"
+        ]
+      },
+      "type": [
+        "h-product"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

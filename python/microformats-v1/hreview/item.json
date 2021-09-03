@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "properties": {
+        "item": [
+          {
+            "properties": {
+              "name": [
+                ""
+              ],
+              "photo": [
+                "http://example.com/images/photo.gif"
+              ]
+            },
+            "type": [
+              "h-item"
+            ],
+            "value": "http://example.com/images/photo.gif"
+          },
+          {
+            "properties": {
+              "name": [
+                "Crepes on Cole"
+              ],
+              "url": [
+                "http://example.com/crepeoncole"
+              ]
+            },
+            "type": [
+              "h-item"
+            ],
+            "value": "Crepes on Cole"
+          }
+        ],
+        "name": [
+          {
+            "properties": {
+              "name": [
+                "Crepes on Cole"
+              ],
+              "url": [
+                "http://example.com/crepeoncole"
+              ]
+            },
+            "type": [
+              "h-item"
+            ],
+            "value": "Crepes on Cole"
+          }
+        ],
+        "photo": [
+          {
+            "properties": {
+              "name": [
+                ""
+              ],
+              "photo": [
+                "http://example.com/images/photo.gif"
+              ]
+            },
+            "type": [
+              "h-item"
+            ],
+            "value": "http://example.com/images/photo.gif"
+          }
+        ],
+        "rating": [
+          "5"
+        ],
+        "url": [
+          {
+            "properties": {
+              "name": [
+                "Crepes on Cole"
+              ],
+              "url": [
+                "http://example.com/crepeoncole"
+              ]
+            },
+            "type": [
+              "h-item"
+            ],
+            "value": "http://example.com/crepeoncole"
+          }
+        ]
+      },
+      "type": [
+        "h-review"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

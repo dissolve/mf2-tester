@@ -1,0 +1,13 @@
+5,10d4
+<         "8-vendor-name": [
+<           "Valid"
+<         ],
+<         "8to8-vendor-name": [
+<           "Valid"
+<         ],
+16a11,13
+>         "vendor--name": [
+>           "Invalid"
+>         ],
+17a15
+>           "Invalid",

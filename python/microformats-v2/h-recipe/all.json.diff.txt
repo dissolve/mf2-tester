@@ -1,0 +1,8 @@
+46c46
+<             "value": "Pre-heat oven to 230C or gas mark 8. Pour the vegetable oil evenly into 2 x 4-hole \n            Yorkshire pudding tins and place in the oven to heat through. \n            \n            To make the batter, add all the flour into a bowl and beat in the eggs until smooth. \n            Gradually add the milk and water while beating the mixture. It should be smooth and \n            without lumps. Finally add a pinch of salt.\n            \n            Make sure the oil is piping hot before pouring the batter evenly into the tins. \n            Place in the oven for 20-25 minutes until pudding have risen and look golden brown"
+---
+>             "value": "Pre-heat oven to 230C or gas mark 8. Pour the vegetable oil evenly into 2 x 4-hole Yorkshire pudding tins and place in the oven to heat through. To make the batter, add all the flour into a bowl and beat in the eggs until smooth. Gradually add the milk and water while beating the mixture. It should be smooth and without lumps. Finally add a pinch of salt. Make sure the oil is piping hot before pouring the batter evenly into the tins. Place in the oven for 20-25 minutes until pudding have risen and look golden brown"
+79c79
+<             "value": "4.5 stars out 5 based on \n            35 reviews"
+---
+>             "value": "4.5 stars out 5 based on  35 reviews"

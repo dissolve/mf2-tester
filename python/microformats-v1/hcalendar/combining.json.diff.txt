@@ -1,0 +1,16 @@
+14,21c14,15
+<                     "locality": [
+<                       "Portland"
+<                     ],
+<                     "region": [
+<                       "Oregon"
+<                     ],
+<                     "street-address": [
+<                       "920 SW 3rd Ave. Suite 400"
+---
+>                     "name": [
+>                       "920 SW 3rd Ave. Suite 400, Portland, OR"
+27c21
+<                   "value": "920 SW 3rd Ave. Suite 400, \n        Portland, \n        OR"
+---
+>                   "value": "920 SW 3rd Ave. Suite 400, Portland, OR"

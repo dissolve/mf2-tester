@@ -1,0 +1,10 @@
+6,7c6
+<           "http://example.com/john@example.com",
+<           "http://example.com/john@example.com",
+---
+>           "john@example.com",
+9c8,9
+<           "mailto:john@example.com?subject=parser-test"
+---
+>           "mailto:john@example.com?subject=parser-test",
+>           "mailto:notthis@example.com"

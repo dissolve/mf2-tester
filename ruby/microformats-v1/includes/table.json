@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "properties": {
+        "name": [
+          "Chris Mills"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Erik Möller"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

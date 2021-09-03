@@ -1,0 +1,8 @@
+9c9
+<           "http://example.com/profile"
+---
+>           ""
+12c12
+<           "http://example.com/profile"
+---
+>           "Max Mustermann"

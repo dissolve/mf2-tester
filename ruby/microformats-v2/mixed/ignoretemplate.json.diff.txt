@@ -1,0 +1,16 @@
+4a5,7
+>         "family-name": [
+>           "Invalid"
+>         ],
+6c9
+<           "Jan"
+---
+>           "JanInvalid"
+12c15
+<                 "10M"
+---
+>                 "Invalid"
+18c21
+<             "value": "10M"
+---
+>             "value": "Invalid"

@@ -1,0 +1,14 @@
+9,12c9
+<                 {
+<                   "alt": "Aaron Parecki",
+<                   "value": "https://aaronparecki.com/images/aaronpk.png"
+<                 }
+---
+>                 "https://aaronparecki.com/images/aaronpk.png"
+18,21c15
+<                 {
+<                   "alt": "Aaron Parecki",
+<                   "value": "https://aaronparecki.com/images/aaronpk.png"
+<                 }
+---
+>                 "https://aaronparecki.com/images/aaronpk.png"

@@ -1,0 +1,77 @@
+3a4,15
+>       "children": [
+>         {
+>           "properties": {
+>             "name": [
+>               "Dave Doe"
+>             ]
+>           },
+>           "type": [
+>             "h-card"
+>           ]
+>         }
+>       ],
+8,15c20,21
+<               "country-name": [
+<                 "United Kingdom"
+<               ],
+<               "locality": [
+<                 "Brighton"
+<               ],
+<               "street-address": [
+<                 "North Street"
+---
+>               "name": [
+>                 "Home: West Street, Brighton, United Kingdom"
+21c27
+<             "value": "Work: \n                North Street, \n                Brighton, \n                United Kingdom"
+---
+>             "value": "Home: West Street, Brighton, United Kingdom"
+25,44d30
+<               "country-name": [
+<                 "United Kingdom"
+<               ],
+<               "locality": [
+<                 "Brighton"
+<               ],
+<               "street-address": [
+<                 "West Street"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Home: \n                West Street, \n                Brighton, \n                United Kingdom"
+<           }
+<         ],
+<         "agent": [
+<           "Jane Doe",
+<           {
+<             "properties": {
+46c32
+<                 "Dave Doe"
+---
+>                 "Work: North Street, Brighton, United Kingdom"
+50c36
+<               "h-card"
+---
+>               "h-adr"
+52c38
+<             "value": "Dave Doe"
+---
+>             "value": "Work: North Street, Brighton, United Kingdom"
+78,79c64,65
+<           "Home: \n                West Street, \n                Brighton, \n                United Kingdom",
+<           "Work: \n                North Street, \n                Brighton, \n                United Kingdom"
+---
+>           "Home: West Street, Brighton, United Kingdom",
+>           "Work: North Street, Brighton, United Kingdom"
+85,88d70
+<         "mailer": [
+<           "Outlook 2007",
+<           "PigeonMail 2.1"
+<         ],
+106,108d87
+<         ],
+<         "sound": [
+<           "http://www.madgex.com/johndoe.mpeg"

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "children": [
+        {
+          "properties": {
+            "description": [
+              "A one day JavaScript Conference held in Brighton"
+            ],
+            "name": [
+              "Fullfrontal"
+            ],
+            "start": [
+              "2012-11-09"
+            ]
+          },
+          "type": [
+            "h-event"
+          ]
+        }
+      ],
+      "properties": {
+        "best": [
+          "10"
+        ],
+        "count": [
+          "62"
+        ],
+        "rating": [
+          "9.9"
+        ]
+      },
+      "type": [
+        "h-review-aggregate"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

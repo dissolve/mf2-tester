@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "properties": {
+        "email": [
+          "john@example.com",
+          "john@example.com",
+          "mailto:john@example.com",
+          "mailto:john@example.com?subject=parser-test"
+        ],
+        "name": [
+          "John Doe"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

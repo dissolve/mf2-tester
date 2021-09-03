@@ -1,0 +1,4 @@
+43c43
+<           "Customers flock to this small restaurant for their \n    tasty falafel and shawerma wraps and welcoming staff."
+---
+>           "Customers flock to this small restaurant for their tasty falafel and shawerma wraps and welcoming staff."

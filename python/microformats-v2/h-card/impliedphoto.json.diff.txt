@@ -1,0 +1,28 @@
+32,35c32
+<               {
+<                 "alt": "Jane Doe",
+<                 "value": "http://example.com/jane.jpeg"
+<               }
+---
+>               "jane.jpeg"
+93,96c90
+<           {
+<             "alt": "Jane Doe",
+<             "value": "http://example.com/jane.jpeg"
+<           }
+---
+>           "jane.jpeg"
+109,112c103
+<           {
+<             "alt": "Jane Doe",
+<             "value": "http://example.com/jane.jpeg"
+<           }
+---
+>           "jane.jpeg"
+125,128c116
+<           {
+<             "alt": "Jane Doe",
+<             "value": "http://example.com/jane.jpeg"
+<           }
+---
+>           "jane.jpeg"

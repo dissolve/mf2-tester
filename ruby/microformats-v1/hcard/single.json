@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "properties": {
+        "bday": [
+          "2000-01-01 00:00:00-08:00"
+        ],
+        "class": [
+          "Public"
+        ],
+        "geo": [
+          {
+            "properties": {},
+            "type": [
+              "h-geo"
+            ],
+            "value": "30.267991;-97.739568"
+          }
+        ],
+        "given-name": [
+          "John"
+        ],
+        "name": [
+          "John Doe"
+        ],
+        "rev": [
+          "2008-01-01 13:45:00"
+        ],
+        "role": [
+          "Designer"
+        ],
+        "sort-string": [
+          "John"
+        ],
+        "tz": [
+          "-05:00"
+        ],
+        "uid": [
+          "http://example.com/profiles/johndoe"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

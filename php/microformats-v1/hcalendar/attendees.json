@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "children": [
+        {
+          "properties": {
+            "name": [
+              "Brian Warner"
+            ]
+          },
+          "type": [
+            "h-card"
+          ]
+        },
+        {
+          "properties": {
+            "name": [
+              "Kyle Machulis"
+            ]
+          },
+          "type": [
+            "h-card"
+          ]
+        },
+        {
+          "properties": {
+            "name": [
+              "San Francisco"
+            ]
+          },
+          "type": [
+            "h-card"
+          ]
+        },
+        {
+          "properties": {
+            "name": [
+              "Sid Sutter"
+            ]
+          },
+          "type": [
+            "h-card"
+          ]
+        },
+        {
+          "properties": {
+            "name": [
+              "Tantek Çelik"
+            ]
+          },
+          "type": [
+            "h-card"
+          ]
+        }
+      ],
+      "properties": {
+        "name": [
+          "CPJ Online Press Freedom Summit"
+        ],
+        "start": [
+          "2012-10-10"
+        ]
+      },
+      "type": [
+        "h-event"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

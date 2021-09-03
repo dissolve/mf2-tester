@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "children": [
+        {
+          "properties": {
+            "content": [
+              {
+                "html": "<p class=\"p-summary\">Last week the microformats.org community \n\t\t            celebrated its 7th birthday at a gathering hosted by Mozilla in \n\t\t            San Francisco and recognized accomplishments, challenges, and \n\t\t            opportunities.</p>\n\t\t\n\t\t        <p>The microformats tagline &#x201C;humans first, machines second&#x201D; \n\t\t            forms the basis of many of our \n\t\t            <a href=\"http://microformats.org/wiki/principles\">principles</a>, and \n\t\t            in that regard, we&#x2019;d like to recognize a few people and \n\t\t            thank them for their years of volunteer service </p>",
+                "value": "Last week the microformats.org community celebrated its 7th birthday at a gathering hosted by Mozilla in San Francisco and recognized accomplishments, challenges, and opportunities.\nThe microformats tagline “humans first, machines second” forms the basis of many of our principles, and in that regard, we’d like to recognize a few people and thank them for their years of volunteer service"
+              }
+            ],
+            "name": [
+              "microformats.org at 7"
+            ],
+            "summary": [
+              "Last week the microformats.org community celebrated its 7th birthday at a gathering hosted by Mozilla in San Francisco and recognized accomplishments, challenges, and opportunities."
+            ],
+            "updated": [
+              "2012-06-25T17:08:26"
+            ],
+            "url": [
+              "http://microformats.org/2012/06/25/microformats-org-at-7"
+            ]
+          },
+          "type": [
+            "h-entry"
+          ]
+        }
+      ],
+      "properties": {},
+      "type": [
+        "h-feed"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

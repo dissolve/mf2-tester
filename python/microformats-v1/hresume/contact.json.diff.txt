@@ -1,0 +1,76 @@
+7,31c7,11
+<             "properties": {
+<               "adr": [
+<                 {
+<                   "properties": {
+<                     "country-name": [
+<                       "USA"
+<                     ],
+<                     "extended-address": [
+<                       "Room 32-G524"
+<                     ],
+<                     "locality": [
+<                       "Cambridge"
+<                     ],
+<                     "postal-code": [
+<                       "02139"
+<                     ],
+<                     "region": [
+<                       "MA"
+<                     ],
+<                     "street-address": [
+<                       "32 Vassar Street"
+<                     ]
+<                   },
+<                   "type": [
+<                     "h-adr"
+---
+>             "children": [
+>               {
+>                 "properties": {
+>                   "country-name": [
+>                     "USA"
+33,48c13,34
+<                   "value": "32 Vassar Street, \n            Room 32-G524, \n            Cambridge,  \n            MA \n            02139, \n            USA.  \n            (Work)"
+<                 }
+<               ],
+<               "email": [
+<                 "mailto:timbl@w3.org"
+<               ],
+<               "name": [
+<                 "Tim Berners-Lee"
+<               ],
+<               "org": [
+<                 "MIT"
+<               ],
+<               "tel": [
+<                 "+1 (617) 253 5702"
+<               ]
+<             },
+---
+>                   "extended-address": [
+>                     "Room 32-G524"
+>                   ],
+>                   "locality": [
+>                     "Cambridge"
+>                   ],
+>                   "postal-code": [
+>                     "02139"
+>                   ],
+>                   "region": [
+>                     "MA"
+>                   ],
+>                   "street-address": [
+>                     "32 Vassar Street"
+>                   ]
+>                 },
+>                 "type": [
+>                   "h-adr"
+>                 ]
+>               }
+>             ],
+>             "properties": {},
+52c38
+<             "value": "Tim Berners-Lee"
+---
+>             "value": "Tim Berners-Lee\nMIT\n32 Vassar Street, Room 32-G524, Cambridge, MA 02139, USA. (Work) \nTel:+1 (617) 253 5702\nEmail:timbl@w3.org"

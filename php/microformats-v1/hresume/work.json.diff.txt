@@ -1,0 +1,20 @@
+27,35d26
+<               "job-title": [
+<                 "Director"
+<               ],
+<               "name": [
+<                 "World Wide Web Foundation"
+<               ],
+<               "org": [
+<                 "World Wide Web Foundation"
+<               ],
+38a30,32
+>               "summary": [
+>                 "World Wide Web Foundation"
+>               ],
+44d37
+<               "h-card",
+47c40
+<             "value": "World Wide Web Foundation"
+---
+>             "value": "Director\nWorld Wide Web Foundation\nJan 2009 – Present (2 years 11 month)"

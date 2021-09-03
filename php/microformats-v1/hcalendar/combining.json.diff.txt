@@ -1,0 +1,77 @@
+3a4,40
+>       "children": [
+>         {
+>           "properties": {
+>             "adr": [
+>               {
+>                 "properties": {
+>                   "locality": [
+>                     "Portland"
+>                   ],
+>                   "region": [
+>                     "Oregon"
+>                   ],
+>                   "street-address": [
+>                     "920 SW 3rd Ave. Suite 400"
+>                   ]
+>                 },
+>                 "type": [
+>                   "h-adr"
+>                 ],
+>                 "value": "920 SW 3rd Ave. Suite 400, Portland, OR"
+>               }
+>             ],
+>             "name": [
+>               "Geoloqi"
+>             ],
+>             "org": [
+>               "Geoloqi"
+>             ],
+>             "url": [
+>               "http://geoloqi.com/"
+>             ]
+>           },
+>           "type": [
+>             "h-card"
+>           ]
+>         }
+>       ],
+7,44d43
+<         ],
+<         "location": [
+<           {
+<             "properties": {
+<               "adr": [
+<                 {
+<                   "properties": {
+<                     "locality": [
+<                       "Portland"
+<                     ],
+<                     "region": [
+<                       "Oregon"
+<                     ],
+<                     "street-address": [
+<                       "920 SW 3rd Ave. Suite 400"
+<                     ]
+<                   },
+<                   "type": [
+<                     "h-adr"
+<                   ],
+<                   "value": "920 SW 3rd Ave. Suite 400, \n        Portland, \n        OR"
+<                 }
+<               ],
+<               "name": [
+<                 "Geoloqi"
+<               ],
+<               "org": [
+<                 "Geoloqi"
+<               ],
+<               "url": [
+<                 "http://geoloqi.com/"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Geoloqi"
+<           }

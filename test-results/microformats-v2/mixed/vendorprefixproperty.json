@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "properties": {
+        "8-vendor-name": [
+          "Valid"
+        ],
+        "8to8-vendor-name": [
+          "Valid"
+        ],
+        "name": [
+          "Valid"
+        ],
+        "super-extra-long-microformat-property-name": [
+          "Valid"
+        ],
+        "vendor-name": [
+          "Valid"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

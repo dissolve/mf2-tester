@@ -1,0 +1,66 @@
+9c9
+<                 "Crepes on Cole"
+---
+>                 ""
+12a13,39
+>               ]
+>             },
+>             "type": [
+>               "h-item"
+>             ],
+>             "value": "http://example.com/images/photo.gif"
+>           },
+>           {
+>             "properties": {
+>               "name": [
+>                 "Crepes on Cole"
+>               ],
+>               "url": [
+>                 "http://example.com/crepeoncole"
+>               ]
+>             },
+>             "type": [
+>               "h-item"
+>             ],
+>             "value": "Crepes on Cole"
+>           }
+>         ],
+>         "name": [
+>           {
+>             "properties": {
+>               "name": [
+>                 "Crepes on Cole"
+23a51,66
+>         "photo": [
+>           {
+>             "properties": {
+>               "name": [
+>                 ""
+>               ],
+>               "photo": [
+>                 "http://example.com/images/photo.gif"
+>               ]
+>             },
+>             "type": [
+>               "h-item"
+>             ],
+>             "value": "http://example.com/images/photo.gif"
+>           }
+>         ],
+25a69,84
+>         ],
+>         "url": [
+>           {
+>             "properties": {
+>               "name": [
+>                 "Crepes on Cole"
+>               ],
+>               "url": [
+>                 "http://example.com/crepeoncole"
+>               ]
+>             },
+>             "type": [
+>               "h-item"
+>             ],
+>             "value": "http://example.com/crepeoncole"
+>           }

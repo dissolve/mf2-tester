@@ -1,0 +1,13 @@
+16c16,17
+<           ]
+---
+>           ],
+>           "value": "Jane Doe"
+19c20,24
+<       "properties": {},
+---
+>       "properties": {
+>         "name": [
+>           "Jane Doe"
+>         ]
+>       },

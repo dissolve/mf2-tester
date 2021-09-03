@@ -1,0 +1,6 @@
+69a70
+>               "h-review",
+72c73
+<             "value": "9.2 out of \n            10 \n            based on 178 reviews"
+---
+>             "value": "9.2"

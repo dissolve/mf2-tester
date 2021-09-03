@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "properties": {
+        "name": [
+          "Danyaal Rasmussen"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Luca Sparrow"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Selin Holden"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

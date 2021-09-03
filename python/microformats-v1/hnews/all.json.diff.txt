@@ -1,0 +1,163 @@
+3a4,9
+>       "properties": {},
+>       "type": [
+>         "h-geo"
+>       ]
+>     },
+>     {
+5c11
+<         "dateline": [
+---
+>         "adr": [
+8,22c14,15
+<               "adr": [
+<                 {
+<                   "properties": {
+<                     "locality": [
+<                       "San Francisco"
+<                     ],
+<                     "region": [
+<                       "CA"
+<                     ]
+<                   },
+<                   "type": [
+<                     "h-adr"
+<                   ],
+<                   "value": "San Francisco, \n                CA"
+<                 }
+---
+>               "name": [
+>                 "San Francisco, CA"
+26c19
+<               "h-card"
+---
+>               "h-adr"
+28c21
+<             "value": "San Francisco, \n                CA"
+---
+>             "value": "San Francisco, CA"
+30,31c23,31
+<         ],
+<         "entry": [
+---
+>         ]
+>       },
+>       "type": [
+>         "h-card"
+>       ]
+>     },
+>     {
+>       "properties": {
+>         "author": [
+34,55d33
+<               "author": [
+<                 {
+<                   "properties": {
+<                     "name": [
+<                       "Tantek"
+<                     ],
+<                     "url": [
+<                       "http://tantek.com/"
+<                     ]
+<                   },
+<                   "type": [
+<                     "h-card"
+<                   ],
+<                   "value": "Tantek"
+<                 }
+<               ],
+<               "content": [
+<                 {
+<                   "html": "<p class=\"entry-summary\">Last week the microformats.org community \n                celebrated its 7th birthday at a gathering hosted by Mozilla in \n                San Francisco and recognized accomplishments, challenges, and \n                opportunities.</p>\n\n            <p>The microformats tagline “humans first, machines second” \n                forms the basis of many of our \n                <a href=\"http://microformats.org/wiki/principles\">principles</a>, and \n                in that regard, we’d like to recognize a few people and \n                thank them for their years of volunteer service </p>",
+<                   "value": "Last week the microformats.org community \n                celebrated its 7th birthday at a gathering hosted by Mozilla in \n                San Francisco and recognized accomplishments, challenges, and \n                opportunities.\n\n            The microformats tagline “humans first, machines second” \n                forms the basis of many of our \n                principles, and \n                in that regard, we’d like to recognize a few people and \n                thank them for their years of volunteer service"
+<                 }
+<               ],
+57,63c35
+<                 "microformats.org at 7"
+<               ],
+<               "summary": [
+<                 "Last week the microformats.org community \n                celebrated its 7th birthday at a gathering hosted by Mozilla in \n                San Francisco and recognized accomplishments, challenges, and \n                opportunities."
+<               ],
+<               "updated": [
+<                 "2012-06-25T17:08:26"
+---
+>                 "Tantek"
+66c38
+<                 "http://microformats.org/2012/06/25/microformats-org-at-7"
+---
+>                 "http://tantek.com/"
+70c42
+<               "h-entry"
+---
+>               "h-card"
+72c44
+<             "value": "microformats.org at 7"
+---
+>             "value": "Tantek"
+75c47
+<         "geo": [
+---
+>         "content": [
+77,81c49,50
+<             "properties": {},
+<             "type": [
+<               "h-geo"
+<             ],
+<             "value": "37.774921;-122.445202"
+---
+>             "html": "<p class=\"entry-summary\">Last week the microformats.org community \n                celebrated its 7th birthday at a gathering hosted by Mozilla in \n                San Francisco and recognized accomplishments, challenges, and \n                opportunities.</p>\n\n            <p>The microformats tagline “humans first, machines second” \n                forms the basis of many of our \n                <a href=\"http://microformats.org/wiki/principles\">principles</a>, and \n                in that regard, we’d like to recognize a few people and \n                thank them for their years of volunteer service </p>",
+>             "value": "Last week the microformats.org community celebrated its 7th birthday at a gathering hosted by Mozilla in San Francisco and recognized accomplishments, challenges, and opportunities.\nThe microformats tagline “humans first, machines second” forms the basis of many of our principles, and in that regard, we’d like to recognize a few people and thank them for their years of volunteer service"
+84,85c53,54
+<         "principles": [
+<           "http://microformats.org/wiki/Category:public_domain_license"
+---
+>         "name": [
+>           "microformats.org at 7"
+87,104c56,79
+<         "source-org": [
+<           {
+<             "properties": {
+<               "name": [
+<                 "microformats.org"
+<               ],
+<               "org": [
+<                 "microformats.org"
+<               ],
+<               "url": [
+<                 "http://microformats.org/"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "microformats.org"
+<           }
+---
+>         "summary": [
+>           "Last week the microformats.org community celebrated its 7th birthday at a gathering hosted by Mozilla in San Francisco and recognized accomplishments, challenges, and opportunities."
+>         ],
+>         "updated": [
+>           "2012-06-25T17:08:26"
+>         ],
+>         "url": [
+>           "http://microformats.org/2012/06/25/microformats-org-at-7"
+>         ]
+>       },
+>       "type": [
+>         "h-entry"
+>       ]
+>     },
+>     {
+>       "properties": {
+>         "name": [
+>           "microformats.org"
+>         ],
+>         "org": [
+>           "microformats.org"
+>         ],
+>         "url": [
+>           "http://microformats.org/"
+108c83
+<         "h-news"
+---
+>         "h-card"

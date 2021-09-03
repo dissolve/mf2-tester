@@ -1,0 +1,46 @@
+21,42d20
+<         "location": [
+<           {
+<             "properties": {
+<               "country-name": [
+<                 "USA"
+<               ],
+<               "locality": [
+<                 "Redmond"
+<               ],
+<               "region": [
+<                 "Washington"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Redmond, \n        Washington, \n        USA"
+<           }
+<         ],
+<         "name": [
+<           "Build Conference"
+<         ],
+53,74d30
+<         "location": [
+<           {
+<             "properties": {
+<               "country-name": [
+<                 "USA"
+<               ],
+<               "locality": [
+<                 "Redmond"
+<               ],
+<               "region": [
+<                 "Washington"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Redmond, \n        Washington, \n        USA"
+<           }
+<         ],
+<         "name": [
+<           "Build Conference"
+<         ],

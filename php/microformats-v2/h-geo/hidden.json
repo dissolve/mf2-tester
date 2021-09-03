@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "properties": {
+        "latitude": [
+          "51.513458"
+        ],
+        "longitude": [
+          "-0.14812"
+        ]
+      },
+      "type": [
+        "h-geo"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

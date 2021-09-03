@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "properties": {
+        "name": [
+          "Max Mustermann"
+        ],
+        "uid": [
+          ""
+        ],
+        "url": [
+          "Max Mustermann"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

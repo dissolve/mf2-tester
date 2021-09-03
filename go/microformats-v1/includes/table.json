@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "properties": {
+        "name": [
+          "Chris Mills"
+        ],
+        "org": [
+          "Opera"
+        ],
+        "url": [
+          "http://dev.opera.com/"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Erik Möller"
+        ],
+        "org": [
+          "Opera"
+        ],
+        "url": [
+          "http://dev.opera.com/"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

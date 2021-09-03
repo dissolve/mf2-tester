@@ -1,0 +1,17 @@
+30,35d29
+<               "name": [
+<                 "The Queen's College, Oxford University"
+<               ],
+<               "org": [
+<                 "The Queen's College, Oxford University"
+<               ],
+37a32,34
+>               ],
+>               "summary": [
+>                 "The Queen's College, Oxford University"
+41d37
+<               "h-card",
+44c40
+<             "value": "The Queen's College, Oxford University"
+---
+>             "value": "The Queen's College, Oxford University, BA Hons (I) Physics 1973 – 1976"

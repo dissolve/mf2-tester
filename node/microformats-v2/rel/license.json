@@ -1,0 +1,16 @@
+{
+  "items": {},
+  "rel-urls": {
+    "http://creativecommons.org/licenses/by/2.5/": {
+      "rels": [
+        "license"
+      ],
+      "text": "cc by 2.5"
+    }
+  },
+  "rels": {
+    "license": [
+      "http://creativecommons.org/licenses/by/2.5/"
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "items": {},
+  "rel-urls": {
+    "http://example.com/profile/alfie": {
+      "rels": [
+        "sweetheart"
+      ],
+      "text": "alfie"
+    },
+    "http://example.com/profile/ava": {
+      "rels": [
+        "muse"
+      ],
+      "text": "ava"
+    },
+    "http://example.com/profile/charlie": {
+      "rels": [
+        "sibling"
+      ],
+      "text": "charlie"
+    },
+    "http://example.com/profile/chloe": {
+      "rels": [
+        "date"
+      ],
+      "text": "chloe"
+    },
+    "http://example.com/profile/emily": {
+      "rels": [
+        "co-worker"
+      ],
+      "text": "emily"
+    },
+    "http://example.com/profile/harry": {
+      "rels": [
+        "child"
+      ],
+      "text": "harry"
+    },
+    "http://example.com/profile/isabella": {
+      "rels": [
+        "neighbor"
+      ],
+      "text": "isabella"
+    },
+    "http://example.com/profile/isla": {
+      "rels": [
+        "me"
+      ],
+      "text": "isla"
+    },
+    "http://example.com/profile/jack": {
+      "rels": [
+        "colleague"
+      ],
+      "text": "jack"
+    },
+    "http://example.com/profile/james": {
+      "rels": [
+        "kin"
+      ],
+      "text": "james"
+    },
+    "http://example.com/profile/jane": {
+      "rels": [
+        "friend"
+      ],
+      "text": "jane"
+    },
+    "http://example.com/profile/jeo": {
+      "rels": [
+        "acquaintance"
+      ],
+      "text": "jeo"
+    },
+    "http://example.com/profile/joshua": {
+      "rels": [
+        "crush"
+      ],
+      "text": "joshua"
+    },
+    "http://example.com/profile/lily": {
+      "rels": [
+        "contact"
+      ],
+      "text": "lily"
+    },
+    "http://example.com/profile/oliver": {
+      "rels": [
+        "met"
+      ],
+      "text": "oliver"
+    },
+    "http://example.com/profile/olivia": {
+      "rels": [
+        "spouse"
+      ],
+      "text": "olivia"
+    },
+    "http://example.com/profile/sophia": {
+      "rels": [
+        "parent"
+      ],
+      "text": "sophia"
+    }
+  },
+  "rels": {
+    "acquaintance": [
+      "http://example.com/profile/jeo"
+    ],
+    "child": [
+      "http://example.com/profile/harry"
+    ],
+    "co-worker": [
+      "http://example.com/profile/emily"
+    ],
+    "colleague": [
+      "http://example.com/profile/jack"
+    ],
+    "contact": [
+      "http://example.com/profile/lily"
+    ],
+    "crush": [
+      "http://example.com/profile/joshua"
+    ],
+    "date": [
+      "http://example.com/profile/chloe"
+    ],
+    "friend": [
+      "http://example.com/profile/jane"
+    ],
+    "kin": [
+      "http://example.com/profile/james"
+    ],
+    "me": [
+      "http://example.com/profile/isla"
+    ],
+    "met": [
+      "http://example.com/profile/oliver"
+    ],
+    "muse": [
+      "http://example.com/profile/ava"
+    ],
+    "neighbor": [
+      "http://example.com/profile/isabella"
+    ],
+    "parent": [
+      "http://example.com/profile/sophia"
+    ],
+    "sibling": [
+      "http://example.com/profile/charlie"
+    ],
+    "spouse": [
+      "http://example.com/profile/olivia"
+    ],
+    "sweetheart": [
+      "http://example.com/profile/alfie"
+    ]
+  }
+}

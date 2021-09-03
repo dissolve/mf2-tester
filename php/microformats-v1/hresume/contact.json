@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "properties": {
+        "contact": [
+          {
+            "properties": {
+              "adr": [
+                {
+                  "properties": {
+                    "country-name": [
+                      "USA"
+                    ],
+                    "extended-address": [
+                      "Room 32-G524"
+                    ],
+                    "locality": [
+                      "Cambridge"
+                    ],
+                    "postal-code": [
+                      "02139"
+                    ],
+                    "region": [
+                      "MA"
+                    ],
+                    "street-address": [
+                      "32 Vassar Street"
+                    ]
+                  },
+                  "type": [
+                    "h-adr"
+                  ],
+                  "value": "32 Vassar Street, Room 32-G524, Cambridge, MA 02139, USA. (Work)"
+                }
+              ],
+              "email": [
+                "mailto:timbl@w3.org"
+              ],
+              "name": [
+                "Tim Berners-Lee"
+              ],
+              "org": [
+                "MIT"
+              ],
+              "tel": [
+                "+1 (617) 253 5702"
+              ]
+            },
+            "type": [
+              "h-card"
+            ],
+            "value": "Tim Berners-Lee"
+          }
+        ],
+        "summary": [
+          "Invented the World Wide Web."
+        ]
+      },
+      "type": [
+        "h-resume"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

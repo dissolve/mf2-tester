@@ -1,0 +1,34 @@
+2,32c2
+<   "items": [
+<     {
+<       "properties": {
+<         "count": [
+<           "6"
+<         ],
+<         "item": [
+<           {
+<             "properties": {
+<               "name": [
+<                 "Mediterranean Wraps"
+<               ],
+<               "url": [
+<                 "http://example.com/mediterraneanwraps"
+<               ]
+<             },
+<             "type": [
+<               "h-item"
+<             ],
+<             "value": "Mediterranean Wraps"
+<           }
+<         ],
+<         "rating": [
+<           "4.5"
+<         ]
+<       },
+<       "type": [
+<         "h-review-aggregate"
+<       ]
+<     }
+<   ],
+---
+>   "items": {},

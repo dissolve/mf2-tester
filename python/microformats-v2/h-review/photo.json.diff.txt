@@ -1,0 +1,7 @@
+9,12c9
+<           {
+<             "alt": "Crepes on Cole",
+<             "value": "http://example.com/images/photo.gif"
+<           }
+---
+>           "http://example.com/images/photo.gif"

@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "properties": {
+        "name": [
+          "Jan"
+        ],
+        "org": [
+          {
+            "properties": {
+              "name": [
+                "10M"
+              ]
+            },
+            "type": [
+              "h-card"
+            ],
+            "value": "10M"
+          }
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

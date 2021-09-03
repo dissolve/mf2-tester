@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "properties": {
+        "name": [
+          "Tim Berners-Lee"
+        ],
+        "skill": [
+          "advocacy",
+          "information systems",
+          "leadership"
+        ],
+        "summary": [
+          "invented the World Wide Web"
+        ]
+      },
+      "type": [
+        "h-resume"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

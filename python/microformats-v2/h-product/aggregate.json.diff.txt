@@ -1,0 +1,8 @@
+65c65
+<                   "value": "9.2 out of \n            10 \n            based on 178 reviews"
+---
+>                   "value": "9.2 out of 10 based on 178 reviews"
+72c72
+<             "value": "9.2 out of \n            10 \n            based on 178 reviews"
+---
+>             "value": "9.2 out of 10 based on 178 reviews"

@@ -1,0 +1,74 @@
+5,14c5
+<         "average": [
+<           "9.2"
+<         ],
+<         "best": [
+<           "10"
+<         ],
+<         "count": [
+<           "17"
+<         ],
+<         "item": [
+---
+>         "adr": [
+17,34c8,9
+<               "adr": [
+<                 {
+<                   "properties": {
+<                     "locality": [
+<                       "Palo Alto"
+<                     ],
+<                     "region": [
+<                       "CA"
+<                     ],
+<                     "street-address": [
+<                       "433 S California Ave"
+<                     ]
+<                   },
+<                   "type": [
+<                     "h-adr"
+<                   ],
+<                   "value": "433 S California Ave, \n                Palo Alto, \n                CA"
+<                 }
+---
+>               "locality": [
+>                 "Palo Alto"
+36,37c11,12
+<               "name": [
+<                 "Mediterranean Wraps"
+---
+>               "region": [
+>                 "CA"
+39,43c14,15
+<               "org": [
+<                 "Mediterranean Wraps"
+<               ],
+<               "tel": [
+<                 "(650) 321-8189"
+---
+>               "street-address": [
+>                 "433 S California Ave"
+47c19
+<               "h-card"
+---
+>               "h-adr"
+49c21
+<             "value": "Mediterranean Wraps"
+---
+>             "value": "433 S California Ave, Palo Alto, CA"
+52,53c24,31
+<         "rating": [
+<           "9.2"
+---
+>         "name": [
+>           "Mediterranean Wraps"
+>         ],
+>         "org": [
+>           "Mediterranean Wraps"
+>         ],
+>         "tel": [
+>           "(650) 321-8189"
+57c35
+<         "h-review-aggregate"
+---
+>         "h-card"

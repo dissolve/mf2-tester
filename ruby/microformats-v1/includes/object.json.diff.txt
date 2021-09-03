@@ -1,0 +1,54 @@
+21,42d20
+<         "location": [
+<           {
+<             "properties": {
+<               "country-name": [
+<                 "USA"
+<               ],
+<               "locality": [
+<                 "Redmond"
+<               ],
+<               "region": [
+<                 "Washington"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Redmond, \n        Washington, \n        USA"
+<           }
+<         ],
+<         "name": [
+<           "Build Conference"
+<         ],
+44c22
+<           "2012-10-30T11:45:00-08:00"
+---
+>           "2012-10-30 11:45:00-08:00"
+53,74d30
+<         "location": [
+<           {
+<             "properties": {
+<               "country-name": [
+<                 "USA"
+<               ],
+<               "locality": [
+<                 "Redmond"
+<               ],
+<               "region": [
+<                 "Washington"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Redmond, \n        Washington, \n        USA"
+<           }
+<         ],
+<         "name": [
+<           "Build Conference"
+<         ],
+76c32
+<           "2012-10-31T11:15:00-08:00"
+---
+>           "2012-10-31 11:15:00-08:00"

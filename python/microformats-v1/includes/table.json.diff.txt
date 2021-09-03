@@ -1,0 +1,14 @@
+7,12d6
+<         ],
+<         "org": [
+<           "Opera"
+<         ],
+<         "url": [
+<           "http://dev.opera.com/"
+23,28d16
+<         ],
+<         "org": [
+<           "Opera"
+<         ],
+<         "url": [
+<           "http://dev.opera.com/"

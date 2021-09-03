@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "properties": {
+        "dateline": [
+          {
+            "properties": {
+              "adr": [
+                {
+                  "properties": {
+                    "locality": [
+                      "San Francisco"
+                    ],
+                    "region": [
+                      "CA"
+                    ]
+                  },
+                  "type": [
+                    "h-adr"
+                  ],
+                  "value": "San Francisco, \n                CA"
+                }
+              ]
+            },
+            "type": [
+              "h-card"
+            ],
+            "value": "San Francisco, \n                CA"
+          }
+        ],
+        "entry": [
+          {
+            "properties": {
+              "author": [
+                {
+                  "properties": {
+                    "name": [
+                      "Tantek"
+                    ],
+                    "url": [
+                      "http://tantek.com/"
+                    ]
+                  },
+                  "type": [
+                    "h-card"
+                  ],
+                  "value": "Tantek"
+                }
+              ],
+              "content": [
+                {
+                  "html": "\n            <p class=\"entry-summary\">Last week the microformats.org community \n                celebrated its 7th birthday at a gathering hosted by Mozilla in \n                San Francisco and recognized accomplishments, challenges, and \n                opportunities.</p>\n\n            <p>The microformats tagline “humans first, machines second” \n                forms the basis of many of our \n                <a href=\"http://microformats.org/wiki/principles\">principles</a>, and \n                in that regard, we’d like to recognize a few people and \n                thank them for their years of volunteer service </p>\n        ",
+                  "value": "Last week the microformats.org community \n                celebrated its 7th birthday at a gathering hosted by Mozilla in \n                San Francisco and recognized accomplishments, challenges, and \n                opportunities.\n\n            The microformats tagline “humans first, machines second” \n                forms the basis of many of our \n                principles, and \n                in that regard, we’d like to recognize a few people and \n                thank them for their years of volunteer service"
+                }
+              ],
+              "name": [
+                "microformats.org at 7"
+              ],
+              "summary": [
+                "Last week the microformats.org community \n                celebrated its 7th birthday at a gathering hosted by Mozilla in \n                San Francisco and recognized accomplishments, challenges, and \n                opportunities."
+              ],
+              "updated": [
+                "2012-06-25T17:08:26"
+              ],
+              "url": [
+                "http://microformats.org/2012/06/25/microformats-org-at-7"
+              ]
+            },
+            "type": [
+              "h-entry"
+            ],
+            "value": "microformats.org at 7"
+          }
+        ],
+        "geo": [
+          {
+            "properties": {
+              "name": [
+                "37.774921;-122.445202"
+              ]
+            },
+            "type": [
+              "h-geo"
+            ],
+            "value": "37.774921;-122.445202"
+          }
+        ],
+        "principles": [
+          "http://microformats.org/wiki/Category:public_domain_license"
+        ],
+        "source-org": [
+          {
+            "properties": {
+              "name": [
+                "microformats.org"
+              ],
+              "org": [
+                "microformats.org"
+              ],
+              "url": [
+                "http://microformats.org/"
+              ]
+            },
+            "type": [
+              "h-card"
+            ],
+            "value": "microformats.org"
+          }
+        ]
+      },
+      "type": [
+        "h-news"
+      ]
+    }
+  ],
+  "rel-urls": {
+    "http://microformats.org/2012/06/25/microformats-org-at-7": {
+      "rels": [
+        "bookmark"
+      ],
+      "text": "microformats.org at 7"
+    },
+    "http://microformats.org/wiki/Category:public_domain_license": {
+      "rels": [
+        "principles"
+      ],
+      "text": "Publishing policy"
+    }
+  },
+  "rels": {
+    "bookmark": [
+      "http://microformats.org/2012/06/25/microformats-org-at-7"
+    ],
+    "principles": [
+      "http://microformats.org/wiki/Category:public_domain_license"
+    ]
+  }
+}

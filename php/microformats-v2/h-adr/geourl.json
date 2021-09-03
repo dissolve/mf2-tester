@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "properties": {
+        "geo": [
+          "geo:51.526421;-0.081067;crs=wgs84;u=40"
+        ],
+        "locality": [
+          "London"
+        ],
+        "name": [
+          "Bricklayer's Arms"
+        ]
+      },
+      "type": [
+        "h-adr"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

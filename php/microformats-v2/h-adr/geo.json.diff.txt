@@ -1,0 +1,4 @@
+12c12
+<           "3 Charlotte Road,  \n        City of London,  \n        EC2A 3PE, \n        UK"
+---
+>           "3 Charlotte Road, City of London, EC2A 3PE, UK"

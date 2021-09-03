@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "properties": {
+        "contact": [
+          {
+            "properties": {
+              "title": [
+                "Director of the World Wide Web Foundation"
+              ]
+            },
+            "type": [
+              "h-card"
+            ],
+            "value": "Director of the World Wide Web Foundation"
+          }
+        ],
+        "experience": [
+          {
+            "properties": {
+              "duration": [
+                "P2Y11M"
+              ],
+              "name": [
+                "World Wide Web Foundation"
+              ],
+              "org": [
+                "World Wide Web Foundation"
+              ],
+              "start": [
+                "2009-01-18"
+              ],
+              "title": [
+                "Director"
+              ],
+              "url": [
+                "http://www.webfoundation.org/"
+              ]
+            },
+            "type": [
+              "h-card",
+              "h-event"
+            ],
+            "value": "World Wide Web Foundation"
+          }
+        ],
+        "name": [
+          "Tim Berners-Lee"
+        ],
+        "summary": [
+          "Invented the World Wide Web."
+        ]
+      },
+      "type": [
+        "h-resume"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "children": [
+        {
+          "properties": {
+            "name": [
+              "Dave Doe"
+            ]
+          },
+          "type": [
+            "h-card"
+          ]
+        }
+      ],
+      "properties": {
+        "adr": [
+          {
+            "properties": {
+              "name": [
+                "Home: West Street, Brighton, United Kingdom"
+              ]
+            },
+            "type": [
+              "h-adr"
+            ],
+            "value": "Home: West Street, Brighton, United Kingdom"
+          },
+          {
+            "properties": {
+              "name": [
+                "Work: North Street, Brighton, United Kingdom"
+              ]
+            },
+            "type": [
+              "h-adr"
+            ],
+            "value": "Work: North Street, Brighton, United Kingdom"
+          }
+        ],
+        "category": [
+          "design",
+          "development",
+          "web"
+        ],
+        "email": [
+          "mailto:john.doe@madgex.com",
+          "mailto:john.doe@webfeetmedia.com"
+        ],
+        "family-name": [
+          "Doe"
+        ],
+        "given-name": [
+          "John"
+        ],
+        "job-title": [
+          "Creative Director",
+          "Owner"
+        ],
+        "key": [
+          "hd02$Gfu*d%dh87KTa2=23934532479"
+        ],
+        "label": [
+          "Home: West Street, Brighton, United Kingdom",
+          "Work: North Street, Brighton, United Kingdom"
+        ],
+        "logo": [
+          "http://example.com/images/logo.gif",
+          "http://example.com/images/logo.gif"
+        ],
+        "name": [
+          "John Doe"
+        ],
+        "nickname": [
+          "Lost boy",
+          "Man with no name"
+        ],
+        "note": [
+          "It can be a real problem booking a hotel room with the name John Doe.",
+          "John Doe is one of those names you always have issues with."
+        ],
+        "org": [
+          "Madgex",
+          "Web Feet Media Ltd"
+        ],
+        "photo": [
+          "http://example.com/images/photo.gif"
+        ],
+        "tel": [
+          "+1 415 555 100",
+          "+1 415 555 200",
+          "+1 415 555 300"
+        ],
+        "url": [
+          "http://www.madgex.com/",
+          "http://www.webfeetmedia.com/"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {
+    "http://en.wikipedia.org/wiki/design": {
+      "rels": [
+        "tag"
+      ],
+      "text": "design"
+    },
+    "http://en.wikipedia.org/wiki/development": {
+      "rels": [
+        "tag"
+      ],
+      "text": "development"
+    },
+    "http://en.wikipedia.org/wiki/web": {
+      "rels": [
+        "tag"
+      ],
+      "text": "web"
+    }
+  },
+  "rels": {
+    "tag": [
+      "http://en.wikipedia.org/wiki/design",
+      "http://en.wikipedia.org/wiki/development",
+      "http://en.wikipedia.org/wiki/web"
+    ]
+  }
+}

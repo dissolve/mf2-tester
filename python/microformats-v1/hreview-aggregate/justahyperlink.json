@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "properties": {
+        "count": [
+          "6"
+        ],
+        "item": [
+          {
+            "properties": {
+              "name": [
+                "Mediterranean Wraps"
+              ],
+              "url": [
+                "http://example.com/mediterraneanwraps"
+              ]
+            },
+            "type": [
+              "h-item"
+            ],
+            "value": "Mediterranean Wraps"
+          }
+        ],
+        "name": [
+          {
+            "properties": {
+              "name": [
+                "Mediterranean Wraps"
+              ],
+              "url": [
+                "http://example.com/mediterraneanwraps"
+              ]
+            },
+            "type": [
+              "h-item"
+            ],
+            "value": "Mediterranean Wraps"
+          }
+        ],
+        "rating": [
+          "4.5"
+        ],
+        "url": [
+          {
+            "properties": {
+              "name": [
+                "Mediterranean Wraps"
+              ],
+              "url": [
+                "http://example.com/mediterraneanwraps"
+              ]
+            },
+            "type": [
+              "h-item"
+            ],
+            "value": "http://example.com/mediterraneanwraps"
+          }
+        ]
+      },
+      "type": [
+        "h-review-aggregate"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

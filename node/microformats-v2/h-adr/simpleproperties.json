@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "properties": {
+        "country-name": [
+          "U.S.A."
+        ],
+        "extended-address": [
+          "Suite 207"
+        ],
+        "locality": [
+          "San Francisco"
+        ],
+        "name": [
+          "665 3rd St.  \n    Suite 207  \n    San Francisco,  \n    CA  \n    94107  \n    U.S.A."
+        ],
+        "postal-code": [
+          "94107"
+        ],
+        "region": [
+          "CA"
+        ],
+        "street-address": [
+          "665 3rd St."
+        ]
+      },
+      "type": [
+        "h-adr"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

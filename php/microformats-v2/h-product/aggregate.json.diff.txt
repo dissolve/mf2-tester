@@ -1,0 +1,12 @@
+33c33
+<             "html": "The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It’s a capable little PC which can be used for many of the things that your desktop PC does, like spreadsheets, word-processing and games. It also plays high-definition video. We want to see it being used by kids all over the world to learn programming.",
+---
+>             "html": "The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It&#x2019;s a capable little PC which can be used for many of the things that your desktop PC does, like spreadsheets, word-processing and games. It also plays high-definition video. We want to see it being used by kids all over the world to learn programming.",
+65c65
+<                   "value": "9.2 out of \n            10 \n            based on 178 reviews"
+---
+>                   "value": "9.2 out of 10 based on 178 reviews"
+72c72
+<             "value": "9.2 out of \n            10 \n            based on 178 reviews"
+---
+>             "value": "9.2 out of 10 based on 178 reviews"

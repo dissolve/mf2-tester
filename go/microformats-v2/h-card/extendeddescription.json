@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "properties": {
+        "category": [
+          "Leadership",
+          "Strategy"
+        ],
+        "name": [
+          "Mitchell Baker"
+        ],
+        "note": [
+          "Mitchell is responsible for setting the direction and scope of the Mozilla Foundation and its activities."
+        ],
+        "org": [
+          "Mozilla Foundation"
+        ],
+        "photo": [
+          {
+            "alt": "photo of Mitchell",
+            "value": "http://blog.mozilla.org/press/files/2012/04/mitchell-baker.jpg"
+          }
+        ],
+        "url": [
+          "http://blog.lizardwrangler.com/",
+          "https://twitter.com/MitchellBaker"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

@@ -1,0 +1,54 @@
+3a4,15
+>       "children": [
+>         {
+>           "properties": {
+>             "name": [
+>               "Dave Doe"
+>             ]
+>           },
+>           "type": [
+>             "h-card"
+>           ]
+>         }
+>       ],
+21c33
+<             "value": "Work: \n                North Street, \n                Brighton, \n                United Kingdom"
+---
+>             "value": "Work: North Street, Brighton, United Kingdom"
+38,52c50
+<             "value": "Home: \n                West Street, \n                Brighton, \n                United Kingdom"
+<           }
+<         ],
+<         "agent": [
+<           "Jane Doe",
+<           {
+<             "properties": {
+<               "name": [
+<                 "Dave Doe"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Dave Doe"
+---
+>             "value": "Home: West Street, Brighton, United Kingdom"
+75c73
+<           "hd02$Gfu*d%dh87KTa2=23934532479"
+---
+>           "http://example.com/hd02$Gfu*d%dh87KTa2=23934532479"
+78,79c76,77
+<           "Home: \n                West Street, \n                Brighton, \n                United Kingdom",
+<           "Work: \n                North Street, \n                Brighton, \n                United Kingdom"
+---
+>           "Home: West Street, Brighton, United Kingdom",
+>           "Work: North Street, Brighton, United Kingdom"
+85,88d82
+<         "mailer": [
+<           "Outlook 2007",
+<           "PigeonMail 2.1"
+<         ],
+106,108d99
+<         ],
+<         "sound": [
+<           "http://www.madgex.com/johndoe.mpeg"

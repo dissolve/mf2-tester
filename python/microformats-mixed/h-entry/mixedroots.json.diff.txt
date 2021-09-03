@@ -1,0 +1,24 @@
+9,12c9
+<                 {
+<                   "alt": "Aaron Parecki",
+<                   "value": "https://aaronparecki.com/images/aaronpk.png"
+<                 }
+---
+>                 "https://aaronparecki.com/images/aaronpk.png"
+18,21c15
+<                 {
+<                   "alt": "Aaron Parecki",
+<                   "value": "https://aaronparecki.com/images/aaronpk.png"
+<                 }
+---
+>                 "https://aaronparecki.com/images/aaronpk.png"
+41,42c35,36
+<             "html": "Did you play\n    <a href=\"http://twitter.com/playmapattack\">@playmapattack</a>at\n    <a href=\"http://aaronparecki.com/tag/realtimeconf\">#<span class=\"p-category\">realtimeconf</span></a>? Here is some more info about how we built it!\n    <a href=\"http://pdx.esri.com/blog/2013/10/17/introducting-mapattack/\"><span class=\"protocol\">http://</span>pdx.esri.com/blog/2013/10/17/introducting-mapattack/</a>",
+<             "value": "Did you play\n    @playmapattackat\n    #realtimeconf? Here is some more info about how we built it!\n    http://pdx.esri.com/blog/2013/10/17/introducting-mapattack/"
+---
+>             "html": "Did you play\n    <a href=\"http://twitter.com/playmapattack\">@playmapattack</a>at\n    <a href=\"/tag/realtimeconf\">#<span class=\"p-category\">realtimeconf</span></a>? Here is some more info about how we built it!\n    <a href=\"http://pdx.esri.com/blog/2013/10/17/introducting-mapattack/\"><span class=\"protocol\">http://</span>pdx.esri.com/blog/2013/10/17/introducting-mapattack/</a>",
+>             "value": "Did you play @playmapattackat #realtimeconf? Here is some more info about how we built it! http://pdx.esri.com/blog/2013/10/17/introducting-mapattack/"
+46c40
+<           "Did you play\n    @playmapattackat\n    #realtimeconf? Here is some more info about how we built it!\n    http://pdx.esri.com/blog/2013/10/17/introducting-mapattack/"
+---
+>           "Did you play @playmapattackat #realtimeconf? Here is some more info about how we built it! http://pdx.esri.com/blog/2013/10/17/introducting-mapattack/"

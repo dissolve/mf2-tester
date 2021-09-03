@@ -1,0 +1,215 @@
+{
+  "items": [
+    {
+      "children": [
+        {
+          "properties": {
+            "name": [
+              "John Doe"
+            ]
+          },
+          "type": [
+            "h-card"
+          ]
+        }
+      ],
+      "properties": {},
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "children": [
+        {
+          "properties": {
+            "name": [
+              "John Doe"
+            ],
+            "photo": [
+              {
+                "alt": "John Doe",
+                "value": "http://example.com/john.html"
+              }
+            ]
+          },
+          "type": [
+            "h-card"
+          ]
+        }
+      ],
+      "properties": {},
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "children": [
+        {
+          "properties": {
+            "name": [
+              "John Doe"
+            ],
+            "photo": [
+              {
+                "alt": "John Doe",
+                "value": "http://example.com/john.html"
+              }
+            ]
+          },
+          "type": [
+            "h-card"
+          ]
+        }
+      ],
+      "properties": {},
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Jane Doe"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Jane Doe"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Jane Doe"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Jane Doe"
+        ],
+        "photo": [
+          {
+            "alt": "Jane Doe",
+            "value": "http://example.com/jane.html"
+          }
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Jane Doe"
+        ],
+        "photo": [
+          {
+            "alt": "Jane Doe",
+            "value": "http://example.com/jane.html"
+          }
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Jane Doe"
+        ],
+        "photo": [
+          {
+            "alt": "Jane Doe",
+            "value": "http://example.com/jane.html"
+          }
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "John Doe Jr."
+        ],
+        "photo": [
+          {
+            "alt": "Jr.",
+            "value": "http://example.com/photo.jpg"
+          }
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Jane Doe"
+        ],
+        "url": [
+          "http://example.com/jane.html"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Jane Doe"
+        ],
+        "url": [
+          "http://example.com/jane.html"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "name": [
+          "Jane Doe"
+        ],
+        "url": [
+          "http://example.com/jane.html"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "org": [
+          "Mozilla"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

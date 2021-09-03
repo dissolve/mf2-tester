@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "properties": {
+        "name": [
+          "Valid"
+        ],
+        "super-extra-long-microformat-property-name": [
+          "Valid"
+        ],
+        "vendor--name": [
+          "Invalid"
+        ],
+        "vendor-name": [
+          "Invalid",
+          "Valid"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

@@ -1,0 +1,60 @@
+4,30c4
+<       "properties": {
+<         "adr": [
+<           {
+<             "properties": {
+<               "locality": [
+<                 "San Francisco"
+<               ],
+<               "postal-code": [
+<                 "94103"
+<               ],
+<               "region": [
+<                 "CA"
+<               ],
+<               "street-address": [
+<                 "1355 Market St"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "1355 Market St,\n        San Francisco, \n        CA\n        94103"
+<           }
+<         ],
+<         "org": [
+<           "Twitter"
+<         ]
+<       },
+---
+>       "properties": {},
+36,62c10
+<       "properties": {
+<         "adr": [
+<           {
+<             "properties": {
+<               "locality": [
+<                 "San Francisco"
+<               ],
+<               "postal-code": [
+<                 "94103"
+<               ],
+<               "region": [
+<                 "CA"
+<               ],
+<               "street-address": [
+<                 "1355 Market St"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "1355 Market St,\n        San Francisco, \n        CA\n        94103"
+<           }
+<         ],
+<         "org": [
+<           "Twitter"
+<         ]
+<       },
+---
+>       "properties": {},

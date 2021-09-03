@@ -1,0 +1,8 @@
+48a49,51
+>               "name": [
+>                 "9.2 out of \n            10 \n            based on 178 reviews"
+>               ],
+59a63,65
+>                     ],
+>                     "name": [
+>                       "9.2 out of \n            10 \n            based on 178 reviews"

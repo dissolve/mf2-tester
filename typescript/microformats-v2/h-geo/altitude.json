@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "properties": {
+        "altitude": [
+          "694"
+        ],
+        "latitude": [
+          "54.155278"
+        ],
+        "longitude": [
+          "-2.249722"
+        ],
+        "name": [
+          "Pen-y-ghent"
+        ]
+      },
+      "type": [
+        "h-geo"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

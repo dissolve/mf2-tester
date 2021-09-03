@@ -1,0 +1,16 @@
+6c6
+<           "Valid"
+---
+>           "Invalid"
+10c10
+<         "h-8-vendor-card"
+---
+>         "h-vendor--card"
+16c16
+<           "Valid"
+---
+>           "Invalid"
+20c20
+<         "h-8to8-vendor-card"
+---
+>         "h-vendor-card-"

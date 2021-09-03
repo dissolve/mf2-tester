@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "properties": {
+        "adr": [
+          {
+            "properties": {
+              "country-name": [
+                "U.S.A."
+              ],
+              "extended-address": [
+                "Suite 207"
+              ],
+              "locality": [
+                "San Francisco"
+              ],
+              "postal-code": [
+                "94107"
+              ],
+              "region": [
+                "CA"
+              ],
+              "street-address": [
+                "665 3rd St."
+              ]
+            },
+            "type": [
+              "h-adr"
+            ],
+            "value": "665 3rd St.  \n    Suite 207  \n    San Francisco,  \n    CA  \n    94107  \n    U.S.A."
+          }
+        ],
+        "org": [
+          "Mozilla"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "adr": [
+          {
+            "properties": {
+              "country-name": [
+                "U.S.A."
+              ],
+              "extended-address": [
+                "Suite 207"
+              ],
+              "locality": [
+                "San Francisco"
+              ],
+              "postal-code": [
+                "94107"
+              ],
+              "region": [
+                "CA"
+              ],
+              "street-address": [
+                "665 3rd St."
+              ]
+            },
+            "type": [
+              "h-adr"
+            ],
+            "value": "665 3rd St.  \n    Suite 207  \n    San Francisco,  \n    CA  \n    94107  \n    U.S.A."
+          }
+        ],
+        "org": [
+          "Mozilla"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "country-name": [
+          "U.S.A."
+        ],
+        "extended-address": [
+          "Suite 207"
+        ],
+        "locality": [
+          "San Francisco"
+        ],
+        "postal-code": [
+          "94107"
+        ],
+        "region": [
+          "CA"
+        ],
+        "street-address": [
+          "665 3rd St."
+        ]
+      },
+      "type": [
+        "h-adr"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

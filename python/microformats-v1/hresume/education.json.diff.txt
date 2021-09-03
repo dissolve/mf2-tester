@@ -1,0 +1,35 @@
+8,10d7
+<               "job-title": [
+<                 "Director of the World Wide Web Foundation"
+<               ],
+12c9
+<                 "Tim Berners-Lee"
+---
+>                 "Tim Berners-Lee\nDirector of the World Wide Web Foundation"
+18c15
+<             "value": "Tim Berners-Lee"
+---
+>             "value": "Tim Berners-Lee\nDirector of the World Wide Web Foundation"
+24,29d20
+<               "description": [
+<                 "BA Hons (I) Physics"
+<               ],
+<               "end": [
+<                 "1976-06"
+<               ],
+31,37c22
+<                 "The Queen's College, Oxford University"
+<               ],
+<               "org": [
+<                 "The Queen's College, Oxford University"
+<               ],
+<               "start": [
+<                 "1973-09"
+---
+>                 "The Queen's College, Oxford University, BA Hons (I) Physics 1973 – 1976"
+41d25
+<               "h-card",
+44c28
+<             "value": "The Queen's College, Oxford University"
+---
+>             "value": "The Queen's College, Oxford University, BA Hons (I) Physics 1973 – 1976"

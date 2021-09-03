@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "properties": {
+        "end": [
+          "2009-06-26 22:00-06:00"
+        ],
+        "name": [
+          "The 4th Microformat party"
+        ],
+        "start": [
+          "2009-06-26 19:00-06:00"
+        ]
+      },
+      "type": [
+        "h-event"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

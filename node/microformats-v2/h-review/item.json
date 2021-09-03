@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "properties": {
+        "item": [
+          {
+            "properties": {
+              "name": [
+                "Crepes on Cole"
+              ],
+              "photo": [
+                "http://example.com/images/photo.gif"
+              ],
+              "url": [
+                "http://example.com/crepeoncole"
+              ]
+            },
+            "type": [
+              "h-item"
+            ],
+            "value": "Crepes on Cole"
+          }
+        ],
+        "name": [
+          "Crepes on Cole\n    \n    5 out of 5 stars"
+        ],
+        "rating": [
+          "5"
+        ]
+      },
+      "type": [
+        "h-review"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

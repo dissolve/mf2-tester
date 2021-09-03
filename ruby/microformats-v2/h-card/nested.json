@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "children": [
+        {
+          "properties": {
+            "name": [
+              "Mozilla Foundation"
+            ],
+            "url": [
+              "http://mozilla.org/"
+            ]
+          },
+          "type": [
+            "h-card",
+            "h-org"
+          ]
+        }
+      ],
+      "properties": {
+        "name": [
+          "Mitchell Baker"
+        ],
+        "url": [
+          "http://blog.lizardwrangler.com/"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

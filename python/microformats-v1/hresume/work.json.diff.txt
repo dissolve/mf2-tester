@@ -1,0 +1,38 @@
+8,10d7
+<               "job-title": [
+<                 "Director of the World Wide Web Foundation"
+<               ],
+12c9
+<                 "Tim Berners-Lee"
+---
+>                 "Tim Berners-Lee\nDirector of the World Wide Web Foundation"
+18c15
+<             "value": "Tim Berners-Lee"
+---
+>             "value": "Tim Berners-Lee\nDirector of the World Wide Web Foundation"
+24,29d20
+<               "duration": [
+<                 "P2Y11M"
+<               ],
+<               "job-title": [
+<                 "Director"
+<               ],
+31,40c22
+<                 "World Wide Web Foundation"
+<               ],
+<               "org": [
+<                 "World Wide Web Foundation"
+<               ],
+<               "start": [
+<                 "2009-01-18"
+<               ],
+<               "url": [
+<                 "http://www.webfoundation.org/"
+---
+>                 "Director\nWorld Wide Web Foundation\nJan 2009 – Present (2 years 11 month)"
+44d25
+<               "h-card",
+47c28
+<             "value": "World Wide Web Foundation"
+---
+>             "value": "Director\nWorld Wide Web Foundation\nJan 2009 – Present (2 years 11 month)"

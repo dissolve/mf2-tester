@@ -1,0 +1,36 @@
+5,7d4
+<         "end": [
+<           "2012-06-27T16:45:00-0800"
+<         ],
+12d8
+<                 "Moscone Center",
+14,16d9
+<               ],
+<               "locality": [
+<                 "San Francisco"
+22c15
+<             "value": "Room 10\n    \n    Moscone Center,   \n    San Francisco"
+---
+>             "value": "Room 10"
+24,26d16
+<         ],
+<         "start": [
+<           "2012-06-27T15:45:00-0800"
+35,37d24
+<         "end": [
+<           "2012-06-27T16:45:00-0800"
+<         ],
+42d28
+<                 "Moscone Center",
+44,46d29
+<               ],
+<               "locality": [
+<                 "San Francisco"
+52c35
+<             "value": "Room 11\n    \n    Moscone Center,   \n    San Francisco"
+---
+>             "value": "Room 11"
+54,56d36
+<         ],
+<         "start": [
+<           "2012-06-27T15:45:00-0800"

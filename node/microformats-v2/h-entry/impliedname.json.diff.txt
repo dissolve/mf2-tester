@@ -1,0 +1,12 @@
+6a7,9
+>         ],
+>         "name": [
+>           "This should not imply a p-name since it has an p-* property."
+19a23,25
+>         ],
+>         "name": [
+>           "This should not imply a p-name since it has an e-* property."
+42a49,51
+>         ],
+>         "name": [
+>           "I really like Microformats\n  \n  This should not imply a p-name since it has a nested microformat."

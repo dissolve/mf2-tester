@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "properties": {},
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {},
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {
+        "locality": [
+          "San Francisco"
+        ],
+        "postal-code": [
+          "94103"
+        ],
+        "region": [
+          "CA"
+        ],
+        "street-address": [
+          "1355 Market St"
+        ]
+      },
+      "type": [
+        "h-adr"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

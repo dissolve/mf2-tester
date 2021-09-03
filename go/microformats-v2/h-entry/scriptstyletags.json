@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "properties": {
+        "content": [
+          {
+            "html": "text <strong>bold</strong><script>x = 1</script><style>strong {color: #fff};</style>",
+            "value": "text bold"
+          }
+        ],
+        "name": [
+          "A post"
+        ]
+      },
+      "type": [
+        "h-entry"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}
