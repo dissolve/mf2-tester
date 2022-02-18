@@ -39,6 +39,9 @@ jobs:
           ruby-version: 2.7
       - run: gem install microformats
 
+      # rust
+      - run: cargo install microformats
+
       - run: ./build.sh
 
       - name: Publish to GitHub Pages
