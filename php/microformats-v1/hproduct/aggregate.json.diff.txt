@@ -2,7 +2,8 @@
 <                   "value": "Cambridge \n            UK"
 ---
 >                   "value": "Cambridge UK"
-56,66c56,57
+55,68c55
+<             "properties": {
 <               "average": [
 <                 "9.2"
 <               ],
@@ -14,14 +15,15 @@
 <               ],
 <               "rating": [
 <                 "9.2"
+<               ]
+<             },
 ---
->               "name": [
->                 "9.2 out of 10 based on 178 reviews"
-70c61
+>             "properties": {},
+70c57
 <               "h-review-aggregate"
 ---
 >               "h-review"
-72c63
+72c59
 <             "value": "9.2 out of \n            10 \n            based on 178 reviews"
 ---
 >             "value": "9.2 out of 10 based on 178 reviews"

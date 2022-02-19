@@ -19,7 +19,10 @@
           "PHD"
         ],
         "photo": [
-          "http://example.com/images/logo.gif"
+          {
+            "alt": "PHD",
+            "value": "http://example.com/images/logo.gif"
+          }
         ]
       },
       "type": [

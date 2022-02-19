@@ -1,18 +1,7 @@
 {
   "items": [
     {
-      "properties": {},
-      "type": [
-        "h-card"
-      ]
-    },
-    {
-      "properties": {},
-      "type": [
-        "h-card"
-      ]
-    },
-    {
+      "id": "mozilla-adr",
       "properties": {
         "country-name": [
           "U.S.A."
@@ -35,6 +24,18 @@
       },
       "type": [
         "h-adr"
+      ]
+    },
+    {
+      "properties": {},
+      "type": [
+        "h-card"
+      ]
+    },
+    {
+      "properties": {},
+      "type": [
+        "h-card"
       ]
     }
   ],

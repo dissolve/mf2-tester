@@ -7,11 +7,7 @@
         ],
         "geo": [
           {
-            "properties": {
-              "name": [
-                "30.267991;-97.739568"
-              ]
-            },
+            "properties": {},
             "type": [
               "h-geo"
             ],

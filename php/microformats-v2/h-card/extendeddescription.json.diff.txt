@@ -1,7 +1,0 @@
-19,22c19
-<           {
-<             "alt": "photo of Mitchell",
-<             "value": "http://blog.mozilla.org/press/files/2012/04/mitchell-baker.jpg"
-<           }
----
->           "http://blog.mozilla.org/press/files/2012/04/mitchell-baker.jpg"

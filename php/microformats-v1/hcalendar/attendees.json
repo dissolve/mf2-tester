@@ -3,6 +3,12 @@
     {
       "children": [
         {
+          "properties": {},
+          "type": [
+            "h-card"
+          ]
+        },
+        {
           "properties": {
             "name": [
               "Brian Warner"
@@ -16,16 +22,6 @@
           "properties": {
             "name": [
               "Kyle Machulis"
-            ]
-          },
-          "type": [
-            "h-card"
-          ]
-        },
-        {
-          "properties": {
-            "name": [
-              "San Francisco"
             ]
           },
           "type": [

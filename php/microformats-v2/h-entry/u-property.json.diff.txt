@@ -1,9 +1,0 @@
-9,13c9,10
-<           "http://example.com/posterimage.jpg",
-<           {
-<             "alt": "company logos",
-<             "value": "http://example.com/images/logo.gif"
-<           }
----
->           "http://example.com/images/logo.gif",
->           "http://example.com/posterimage.jpg"

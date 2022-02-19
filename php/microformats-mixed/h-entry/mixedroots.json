@@ -6,13 +6,19 @@
           {
             "properties": {
               "logo": [
-                "https://aaronparecki.com/images/aaronpk.png"
+                {
+                  "alt": "Aaron Parecki",
+                  "value": "https://aaronparecki.com/images/aaronpk.png"
+                }
               ],
               "name": [
                 "Aaron Parecki"
               ],
               "photo": [
-                "https://aaronparecki.com/images/aaronpk.png"
+                {
+                  "alt": "Aaron Parecki",
+                  "value": "https://aaronparecki.com/images/aaronpk.png"
+                }
               ],
               "uid": [
                 "https://aaronparecki.com/"

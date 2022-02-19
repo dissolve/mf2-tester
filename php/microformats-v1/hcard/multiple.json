@@ -77,8 +77,14 @@
           "Work: North Street, Brighton, United Kingdom"
         ],
         "logo": [
-          "http://example.com/images/logo.gif",
-          "http://example.com/images/logo.gif"
+          {
+            "alt": "Madgex company logo",
+            "value": "http://example.com/images/logo.gif"
+          },
+          {
+            "alt": "Web Feet Media company logo",
+            "value": "http://example.com/images/logo.gif"
+          }
         ],
         "name": [
           "John Doe"
@@ -96,7 +102,10 @@
           "Web Feet Media Ltd"
         ],
         "photo": [
-          "http://example.com/images/photo.gif"
+          {
+            "alt": "Photo of John Doe",
+            "value": "http://example.com/images/photo.gif"
+          }
         ],
         "tel": [
           "+1 415 555 100",

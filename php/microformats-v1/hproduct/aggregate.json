@@ -52,11 +52,7 @@
         ],
         "review": [
           {
-            "properties": {
-              "name": [
-                "9.2 out of 10 based on 178 reviews"
-              ]
-            },
+            "properties": {},
             "type": [
               "h-review"
             ],

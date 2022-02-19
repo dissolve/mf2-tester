@@ -29,7 +29,10 @@
               "Jane Doe"
             ],
             "photo": [
-              "http://example.com/jane.jpeg"
+              {
+                "alt": "Jane Doe",
+                "value": "http://example.com/jane.jpeg"
+              }
             ]
           },
           "type": [
@@ -87,7 +90,10 @@
           "Jane Doe"
         ],
         "photo": [
-          "http://example.com/jane.jpeg"
+          {
+            "alt": "Jane Doe",
+            "value": "http://example.com/jane.jpeg"
+          }
         ]
       },
       "type": [
@@ -100,7 +106,10 @@
           "Jane Doe"
         ],
         "photo": [
-          "http://example.com/jane.jpeg"
+          {
+            "alt": "Jane Doe",
+            "value": "http://example.com/jane.jpeg"
+          }
         ]
       },
       "type": [
@@ -113,7 +122,10 @@
           "Jane Doe"
         ],
         "photo": [
-          "http://example.com/jane.jpeg"
+          {
+            "alt": "Jane Doe",
+            "value": "http://example.com/jane.jpeg"
+          }
         ]
       },
       "type": [

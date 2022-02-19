@@ -1,4 +1,4 @@
-4,15c4,19
+4,15c4,25
 <       "properties": {
 <         "attendee": [
 <           {
@@ -14,6 +14,12 @@
 ---
 >       "children": [
 >         {
+>           "properties": {},
+>           "type": [
+>             "h-card"
+>           ]
+>         },
+>         {
 >           "properties": {
 >             "name": [
 >               "Brian Warner"
@@ -28,7 +34,7 @@
 >             "name": [
 >               "Kyle Machulis"
 >             ]
-17,26c21,29
+17,26c27,35
 <           {
 <             "properties": {
 <               "name": [
@@ -47,9 +53,9 @@
 >         {
 >           "properties": {
 >             "name": [
->               "San Francisco"
+>               "Sid Sutter"
 >             ]
-28,37c31,39
+28,37c37,45
 <           {
 <             "properties": {
 <               "name": [
@@ -68,9 +74,9 @@
 >         {
 >           "properties": {
 >             "name": [
->               "Sid Sutter"
+>               "Tantek Çelik"
 >             ]
-39,53c41,56
+39,53c47,52
 <           {
 <             "properties": {
 <               "name": [
@@ -87,16 +93,6 @@
 <           "San Francisco"
 <         ],
 ---
->           "type": [
->             "h-card"
->           ]
->         },
->         {
->           "properties": {
->             "name": [
->               "Tantek Çelik"
->             ]
->           },
 >           "type": [
 >             "h-card"
 >           ]

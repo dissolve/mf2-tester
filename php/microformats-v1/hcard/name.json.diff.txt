@@ -1,0 +1,7 @@
+22c22,25
+<           "http://example.com/images/logo.gif"
+---
+>           {
+>             "alt": "PHD",
+>             "value": "http://example.com/images/logo.gif"
+>           }

@@ -1,4 +1,4 @@
-4,36c4
+4,79c4
 <       "properties": {
 <         "adr": [
 <           {
@@ -32,9 +32,11 @@
 <           "Mozilla"
 <         ]
 <       },
----
->       "properties": {},
-42,74c10
+<       "type": [
+<         "h-card"
+<       ]
+<     },
+<     {
 <       "properties": {
 <         "adr": [
 <           {
@@ -68,5 +70,23 @@
 <           "Mozilla"
 <         ]
 <       },
+<       "type": [
+<         "h-card"
+<       ]
+<     },
+<     {
 ---
+>       "id": "mozilla-adr",
+101a27,38
+>       ]
+>     },
+>     {
 >       "properties": {},
+>       "type": [
+>         "h-card"
+>       ]
+>     },
+>     {
+>       "properties": {},
+>       "type": [
+>         "h-card"

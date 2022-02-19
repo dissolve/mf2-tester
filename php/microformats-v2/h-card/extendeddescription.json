@@ -16,7 +16,10 @@
           "Mozilla Foundation"
         ],
         "photo": [
-          "http://blog.mozilla.org/press/files/2012/04/mitchell-baker.jpg"
+          {
+            "alt": "photo of Mitchell",
+            "value": "http://blog.mozilla.org/press/files/2012/04/mitchell-baker.jpg"
+          }
         ],
         "url": [
           "http://blog.lizardwrangler.com/",

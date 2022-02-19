@@ -43,12 +43,29 @@
 ---
 >           "Home: West Street, Brighton, United Kingdom",
 >           "Work: North Street, Brighton, United Kingdom"
-85,88d82
+82,87c80,87
+<           "http://example.com/images/logo.gif",
+<           "http://example.com/images/logo.gif"
+<         ],
 <         "mailer": [
 <           "Outlook 2007",
 <           "PigeonMail 2.1"
-<         ],
-106,108d99
+---
+>           {
+>             "alt": "Madgex company logo",
+>             "value": "http://example.com/images/logo.gif"
+>           },
+>           {
+>             "alt": "Web Feet Media company logo",
+>             "value": "http://example.com/images/logo.gif"
+>           }
+105,108c105,108
+<           "http://example.com/images/photo.gif"
 <         ],
 <         "sound": [
 <           "http://www.madgex.com/johndoe.mpeg"
+---
+>           {
+>             "alt": "Photo of John Doe",
+>             "value": "http://example.com/images/photo.gif"
+>           }

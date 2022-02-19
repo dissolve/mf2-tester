@@ -6,8 +6,11 @@
           "microformats.org at 7"
         ],
         "photo": [
-          "http://example.com/images/logo.gif",
-          "http://example.com/posterimage.jpg"
+          "http://example.com/posterimage.jpg",
+          {
+            "alt": "company logos",
+            "value": "http://example.com/images/logo.gif"
+          }
         ],
         "url": [
           "http://microformats.org/",

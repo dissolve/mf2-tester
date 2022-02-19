@@ -26,7 +26,10 @@
               "John Doe"
             ],
             "photo": [
-              "http://example.com/john.html"
+              {
+                "alt": "John Doe",
+                "value": "http://example.com/john.html"
+              }
             ]
           },
           "type": [
@@ -47,7 +50,10 @@
               "John Doe"
             ],
             "photo": [
-              "http://example.com/john.html"
+              {
+                "alt": "John Doe",
+                "value": "http://example.com/john.html"
+              }
             ]
           },
           "type": [
@@ -96,7 +102,10 @@
           "Jane Doe"
         ],
         "photo": [
-          "http://example.com/jane.html"
+          {
+            "alt": "Jane Doe",
+            "value": "http://example.com/jane.html"
+          }
         ]
       },
       "type": [
@@ -109,7 +118,10 @@
           "Jane Doe"
         ],
         "photo": [
-          "http://example.com/jane.html"
+          {
+            "alt": "Jane Doe",
+            "value": "http://example.com/jane.html"
+          }
         ]
       },
       "type": [
@@ -122,7 +134,10 @@
           "Jane Doe"
         ],
         "photo": [
-          "http://example.com/jane.html"
+          {
+            "alt": "Jane Doe",
+            "value": "http://example.com/jane.html"
+          }
         ]
       },
       "type": [
@@ -135,7 +150,10 @@
           "John Doe Jr."
         ],
         "photo": [
-          "http://example.com/photo.jpg"
+          {
+            "alt": "Jr.",
+            "value": "http://example.com/photo.jpg"
+          }
         ]
       },
       "type": [
