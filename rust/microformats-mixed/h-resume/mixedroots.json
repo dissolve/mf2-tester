@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "properties": {
+        "contact": [
+          "Tim Berners-Lee\n        Director of the World Wide Web Foundation"
+        ],
+        "experience": [
+          "Director\n        World Wide Web Foundation\n        \n            Jan 2009 – Present\n            (2 years 11 month)"
+        ],
+        "summary": [
+          "Invented the World Wide Web."
+        ]
+      },
+      "type": [
+        "h-resume"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

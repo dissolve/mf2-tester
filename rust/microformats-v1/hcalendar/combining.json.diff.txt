@@ -1,0 +1,62 @@
+2,60c2
+<   "items": [
+<     {
+<       "properties": {
+<         "end": [
+<           "2012-07-01"
+<         ],
+<         "location": [
+<           {
+<             "properties": {
+<               "adr": [
+<                 {
+<                   "properties": {
+<                     "locality": [
+<                       "Portland"
+<                     ],
+<                     "region": [
+<                       "Oregon"
+<                     ],
+<                     "street-address": [
+<                       "920 SW 3rd Ave. Suite 400"
+<                     ]
+<                   },
+<                   "type": [
+<                     "h-adr"
+<                   ],
+<                   "value": "920 SW 3rd Ave. Suite 400, \n        Portland, \n        OR"
+<                 }
+<               ],
+<               "name": [
+<                 "Geoloqi"
+<               ],
+<               "org": [
+<                 "Geoloqi"
+<               ],
+<               "url": [
+<                 "http://geoloqi.com/"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Geoloqi"
+<           }
+<         ],
+<         "name": [
+<           "IndieWebCamp 2012"
+<         ],
+<         "start": [
+<           "2012-06-30"
+<         ],
+<         "url": [
+<           "http://indiewebcamp.com/2012"
+<         ]
+<       },
+<       "type": [
+<         "h-event"
+<       ]
+<     }
+<   ],
+---
+>   "items": {},

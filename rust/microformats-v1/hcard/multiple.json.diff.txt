@@ -1,0 +1,126 @@
+2,124c2
+<   "items": [
+<     {
+<       "properties": {
+<         "adr": [
+<           {
+<             "properties": {
+<               "country-name": [
+<                 "United Kingdom"
+<               ],
+<               "locality": [
+<                 "Brighton"
+<               ],
+<               "street-address": [
+<                 "North Street"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Work: \n                North Street, \n                Brighton, \n                United Kingdom"
+<           },
+<           {
+<             "properties": {
+<               "country-name": [
+<                 "United Kingdom"
+<               ],
+<               "locality": [
+<                 "Brighton"
+<               ],
+<               "street-address": [
+<                 "West Street"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Home: \n                West Street, \n                Brighton, \n                United Kingdom"
+<           }
+<         ],
+<         "agent": [
+<           "Jane Doe",
+<           {
+<             "properties": {
+<               "name": [
+<                 "Dave Doe"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Dave Doe"
+<           }
+<         ],
+<         "category": [
+<           "design",
+<           "development",
+<           "web"
+<         ],
+<         "email": [
+<           "mailto:john.doe@madgex.com",
+<           "mailto:john.doe@webfeetmedia.com"
+<         ],
+<         "family-name": [
+<           "Doe"
+<         ],
+<         "given-name": [
+<           "John"
+<         ],
+<         "job-title": [
+<           "Creative Director",
+<           "Owner"
+<         ],
+<         "key": [
+<           "hd02$Gfu*d%dh87KTa2=23934532479"
+<         ],
+<         "label": [
+<           "Home: \n                West Street, \n                Brighton, \n                United Kingdom",
+<           "Work: \n                North Street, \n                Brighton, \n                United Kingdom"
+<         ],
+<         "logo": [
+<           "http://example.com/images/logo.gif",
+<           "http://example.com/images/logo.gif"
+<         ],
+<         "mailer": [
+<           "Outlook 2007",
+<           "PigeonMail 2.1"
+<         ],
+<         "name": [
+<           "John Doe"
+<         ],
+<         "nickname": [
+<           "Lost boy",
+<           "Man with no name"
+<         ],
+<         "note": [
+<           "It can be a real problem booking a hotel room with the name John Doe.",
+<           "John Doe is one of those names you always have issues with."
+<         ],
+<         "org": [
+<           "Madgex",
+<           "Web Feet Media Ltd"
+<         ],
+<         "photo": [
+<           "http://example.com/images/photo.gif"
+<         ],
+<         "sound": [
+<           "http://www.madgex.com/johndoe.mpeg"
+<         ],
+<         "tel": [
+<           "+1 415 555 100",
+<           "+1 415 555 200",
+<           "+1 415 555 300"
+<         ],
+<         "url": [
+<           "http://www.madgex.com/",
+<           "http://www.webfeetmedia.com/"
+<         ]
+<       },
+<       "type": [
+<         "h-card"
+<       ]
+<     }
+<   ],
+---
+>   "items": {},

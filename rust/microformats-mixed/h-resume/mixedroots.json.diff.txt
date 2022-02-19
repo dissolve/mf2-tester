@@ -1,0 +1,47 @@
+6,19c6
+<           {
+<             "properties": {
+<               "job-title": [
+<                 "Director of the World Wide Web Foundation"
+<               ],
+<               "name": [
+<                 "Tim Berners-Lee"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Tim Berners-Lee"
+<           }
+---
+>           "Tim Berners-Lee\n        Director of the World Wide Web Foundation"
+22,48c9
+<           {
+<             "properties": {
+<               "duration": [
+<                 "P2Y11M"
+<               ],
+<               "job-title": [
+<                 "Director"
+<               ],
+<               "name": [
+<                 "World Wide Web Foundation"
+<               ],
+<               "org": [
+<                 "World Wide Web Foundation"
+<               ],
+<               "start": [
+<                 "2009-01-18"
+<               ],
+<               "url": [
+<                 "http://www.webfoundation.org/"
+<               ]
+<             },
+<             "type": [
+<               "h-card",
+<               "h-event"
+<             ],
+<             "value": "World Wide Web Foundation"
+<           }
+---
+>           "Director\n        World Wide Web Foundation\n        \n            Jan 2009 – Present\n            (2 years 11 month)"

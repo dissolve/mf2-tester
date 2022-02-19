@@ -1,0 +1,31 @@
+2,29c2
+<   "items": [
+<     {
+<       "properties": {
+<         "additional-name": [
+<           "Peter"
+<         ],
+<         "family-name": [
+<           "Doe"
+<         ],
+<         "given-name": [
+<           "John"
+<         ],
+<         "honorific-prefix": [
+<           "Dr"
+<         ],
+<         "honorific-suffix": [
+<           "MSc",
+<           "PHD"
+<         ],
+<         "photo": [
+<           "http://example.com/images/logo.gif"
+<         ]
+<       },
+<       "type": [
+<         "h-card"
+<       ]
+<     }
+<   ],
+---
+>   "items": {},

@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "properties": {
+        "name": [
+          "IndieWebCamp 2012"
+        ],
+        "url": [
+          "http://indiewebcamp.com/2012"
+        ]
+      },
+      "type": [
+        "h-event"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

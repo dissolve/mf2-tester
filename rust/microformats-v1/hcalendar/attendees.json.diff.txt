@@ -1,0 +1,67 @@
+2,65c2
+<   "items": [
+<     {
+<       "properties": {
+<         "attendee": [
+<           {
+<             "properties": {
+<               "name": [
+<                 "Brian Warner"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Brian Warner"
+<           },
+<           {
+<             "properties": {
+<               "name": [
+<                 "Kyle Machulis"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Kyle Machulis"
+<           },
+<           {
+<             "properties": {
+<               "name": [
+<                 "Sid Sutter"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Sid Sutter"
+<           },
+<           {
+<             "properties": {
+<               "name": [
+<                 "Tantek Çelik"
+<               ]
+<             },
+<             "type": [
+<               "h-card"
+<             ],
+<             "value": "Tantek Çelik"
+<           }
+<         ],
+<         "location": [
+<           "San Francisco"
+<         ],
+<         "name": [
+<           "CPJ Online Press Freedom Summit"
+<         ],
+<         "start": [
+<           "2012-10-10"
+<         ]
+<       },
+<       "type": [
+<         "h-event"
+<       ]
+<     }
+<   ],
+---
+>   "items": {},

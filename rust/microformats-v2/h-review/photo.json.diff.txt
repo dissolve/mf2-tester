@@ -1,0 +1,4 @@
+11c11
+<             "value": "http://example.com/images/photo.gif"
+---
+>             "src": "http://example.com/images/photo.gif"

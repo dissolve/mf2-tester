@@ -1,0 +1,65 @@
+2,63c2
+<   "items": [
+<     {
+<       "properties": {
+<         "end": [
+<           "2012-06-27T16:45:00-0800"
+<         ],
+<         "location": [
+<           {
+<             "properties": {
+<               "extended-address": [
+<                 "Moscone Center",
+<                 "Room 10"
+<               ],
+<               "locality": [
+<                 "San Francisco"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Room 10\n    \n    Moscone Center,   \n    San Francisco"
+<           }
+<         ],
+<         "start": [
+<           "2012-06-27T15:45:00-0800"
+<         ]
+<       },
+<       "type": [
+<         "h-event"
+<       ]
+<     },
+<     {
+<       "properties": {
+<         "end": [
+<           "2012-06-27T16:45:00-0800"
+<         ],
+<         "location": [
+<           {
+<             "properties": {
+<               "extended-address": [
+<                 "Moscone Center",
+<                 "Room 11"
+<               ],
+<               "locality": [
+<                 "San Francisco"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Room 11\n    \n    Moscone Center,   \n    San Francisco"
+<           }
+<         ],
+<         "start": [
+<           "2012-06-27T15:45:00-0800"
+<         ]
+<       },
+<       "type": [
+<         "h-event"
+<       ]
+<     }
+<   ],
+---
+>   "items": {},

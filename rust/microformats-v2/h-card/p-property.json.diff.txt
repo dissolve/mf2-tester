@@ -1,0 +1,7 @@
+25a26,31
+>         ],
+>         "photo": [
+>           {
+>             "alt": "PHD",
+>             "src": "http://example.com/images/logo.gif"
+>           }

@@ -1,0 +1,23 @@
+{
+  "items": {},
+  "rel-urls": {
+    "http://en.wikipedia.org/wiki/computer": {
+      "rels": [
+        "tag"
+      ],
+      "text": "Computer"
+    },
+    "http://en.wikipedia.org/wiki/education": {
+      "rels": [
+        "tag"
+      ],
+      "text": "Education"
+    }
+  },
+  "rels": {
+    "tag": [
+      "http://en.wikipedia.org/wiki/computer",
+      "http://en.wikipedia.org/wiki/education"
+    ]
+  }
+}

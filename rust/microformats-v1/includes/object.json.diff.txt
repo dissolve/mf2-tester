@@ -1,0 +1,85 @@
+2,83c2
+<   "items": [
+<     {
+<       "properties": {
+<         "country-name": [
+<           "USA"
+<         ],
+<         "locality": [
+<           "Redmond"
+<         ],
+<         "region": [
+<           "Washington"
+<         ]
+<       },
+<       "type": [
+<         "h-adr"
+<       ]
+<     },
+<     {
+<       "properties": {
+<         "location": [
+<           {
+<             "properties": {
+<               "country-name": [
+<                 "USA"
+<               ],
+<               "locality": [
+<                 "Redmond"
+<               ],
+<               "region": [
+<                 "Washington"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Redmond, \n        Washington, \n        USA"
+<           }
+<         ],
+<         "name": [
+<           "Build Conference"
+<         ],
+<         "start": [
+<           "2012-10-30T11:45:00-08:00"
+<         ]
+<       },
+<       "type": [
+<         "h-event"
+<       ]
+<     },
+<     {
+<       "properties": {
+<         "location": [
+<           {
+<             "properties": {
+<               "country-name": [
+<                 "USA"
+<               ],
+<               "locality": [
+<                 "Redmond"
+<               ],
+<               "region": [
+<                 "Washington"
+<               ]
+<             },
+<             "type": [
+<               "h-adr"
+<             ],
+<             "value": "Redmond, \n        Washington, \n        USA"
+<           }
+<         ],
+<         "name": [
+<           "Build Conference"
+<         ],
+<         "start": [
+<           "2012-10-31T11:15:00-08:00"
+<         ]
+<       },
+<       "type": [
+<         "h-event"
+<       ]
+<     }
+<   ],
+---
+>   "items": {},

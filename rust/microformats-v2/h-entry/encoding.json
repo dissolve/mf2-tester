@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "properties": {
+        "content": [
+          {
+            "html": "x&lt;y AT&amp;T &lt;b&gt;NotBold&lt;/b&gt; <b>Bold</b>",
+            "value": "x<y AT&T <b>NotBold</b> Bold"
+          }
+        ],
+        "name": [
+          "x<y AT&T <b>NotBold</b> Bold"
+        ]
+      },
+      "type": [
+        "h-entry"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

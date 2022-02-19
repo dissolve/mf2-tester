@@ -1,0 +1,24 @@
+31c31
+<                 "value": "http://example.com/john.html"
+---
+>                 "src": "http://example.com/john.html"
+55c55
+<                 "value": "http://example.com/john.html"
+---
+>                 "src": "http://example.com/john.html"
+107c107
+<             "value": "http://example.com/jane.html"
+---
+>             "src": "http://example.com/jane.html"
+123c123
+<             "value": "http://example.com/jane.html"
+---
+>             "src": "http://example.com/jane.html"
+139c139
+<             "value": "http://example.com/jane.html"
+---
+>             "src": "http://example.com/jane.html"
+155c155
+<             "value": "http://example.com/photo.jpg"
+---
+>             "src": "http://example.com/photo.jpg"

@@ -1,0 +1,30 @@
+{
+  "items": {},
+  "rel-urls": {
+    "http://example.com/skills/advocacy": {
+      "rels": [
+        "tag"
+      ],
+      "text": "advocacy"
+    },
+    "http://example.com/skills/informationsystems": {
+      "rels": [
+        "tag"
+      ],
+      "text": "information systems"
+    },
+    "http://example.com/skills/leadership": {
+      "rels": [
+        "tag"
+      ],
+      "text": "leadership"
+    }
+  },
+  "rels": {
+    "tag": [
+      "http://example.com/skills/advocacy",
+      "http://example.com/skills/informationsystems",
+      "http://example.com/skills/leadership"
+    ]
+  }
+}

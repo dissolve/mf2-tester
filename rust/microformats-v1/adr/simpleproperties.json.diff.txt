@@ -1,0 +1,30 @@
+2,28c2
+<   "items": [
+<     {
+<       "properties": {
+<         "country-name": [
+<           "U.S.A."
+<         ],
+<         "extended-address": [
+<           "Suite 207"
+<         ],
+<         "locality": [
+<           "San Francisco"
+<         ],
+<         "postal-code": [
+<           "94107"
+<         ],
+<         "region": [
+<           "CA"
+<         ],
+<         "street-address": [
+<           "665 3rd St."
+<         ]
+<       },
+<       "type": [
+<         "h-adr"
+<       ]
+<     }
+<   ],
+---
+>   "items": {},

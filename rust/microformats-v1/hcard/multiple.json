@@ -1,0 +1,30 @@
+{
+  "items": {},
+  "rel-urls": {
+    "http://en.wikipedia.org/wiki/design": {
+      "rels": [
+        "tag"
+      ],
+      "text": "design"
+    },
+    "http://en.wikipedia.org/wiki/development": {
+      "rels": [
+        "tag"
+      ],
+      "text": "development"
+    },
+    "http://en.wikipedia.org/wiki/web": {
+      "rels": [
+        "tag"
+      ],
+      "text": "web"
+    }
+  },
+  "rels": {
+    "tag": [
+      "http://en.wikipedia.org/wiki/design",
+      "http://en.wikipedia.org/wiki/development",
+      "http://en.wikipedia.org/wiki/web"
+    ]
+  }
+}

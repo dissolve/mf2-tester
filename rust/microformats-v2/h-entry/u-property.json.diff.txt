@@ -1,0 +1,4 @@
+12c12
+<             "value": "http://example.com/images/logo.gif"
+---
+>             "src": "http://example.com/images/logo.gif"

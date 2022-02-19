@@ -1,0 +1,28 @@
+40a41,67
+>           },
+>           {
+>             "properties": {
+>               "adr": [
+>                 {
+>                   "properties": {
+>                     "locality": [
+>                       "San Francisco"
+>                     ]
+>                   },
+>                   "type": [
+>                     "h-adr"
+>                   ],
+>                   "value": "San Francisco"
+>                 }
+>               ],
+>               "name": [
+>                 "Crepes on Cole"
+>               ],
+>               "org": [
+>                 "Crepes on Cole"
+>               ]
+>             },
+>             "type": [
+>               "h-card"
+>             ],
+>             "value": "Crepes on Cole"

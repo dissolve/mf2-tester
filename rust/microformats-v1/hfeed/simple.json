@@ -1,0 +1,32 @@
+{
+  "items": {},
+  "rel-urls": {
+    "http://example.com/tags/html": {
+      "rels": [
+        "tag"
+      ],
+      "text": "html"
+    },
+    "http://example.com/tags/microformats": {
+      "rels": [
+        "tag"
+      ],
+      "text": "microformats"
+    },
+    "http://microformats.org/2012/06/25/microformats-org-at-7": {
+      "rels": [
+        "bookmark"
+      ],
+      "text": "microformats.org at 7"
+    }
+  },
+  "rels": {
+    "bookmark": [
+      "http://microformats.org/2012/06/25/microformats-org-at-7"
+    ],
+    "tag": [
+      "http://example.com/tags/html",
+      "http://example.com/tags/microformats"
+    ]
+  }
+}

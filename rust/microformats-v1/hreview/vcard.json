@@ -1,0 +1,38 @@
+{
+  "items": {},
+  "rel-urls": {
+    "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License": {
+      "rels": [
+        "license"
+      ],
+      "text": "Creative Commons Attribution-ShareAlike License"
+    },
+    "http://en.wikipedia.org/wiki/crepe": {
+      "rels": [
+        "tag"
+      ],
+      "text": "crepe"
+    },
+    "http://example.com/crepe": {
+      "rels": [
+        "bookmark",
+        "self"
+      ],
+      "text": "http://example.com/crepe"
+    }
+  },
+  "rels": {
+    "bookmark": [
+      "http://example.com/crepe"
+    ],
+    "license": [
+      "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+    ],
+    "self": [
+      "http://example.com/crepe"
+    ],
+    "tag": [
+      "http://en.wikipedia.org/wiki/crepe"
+    ]
+  }
+}

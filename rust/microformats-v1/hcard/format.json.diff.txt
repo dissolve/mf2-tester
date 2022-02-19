@@ -1,0 +1,18 @@
+2,16c2
+<   "items": [
+<     {
+<       "properties": {
+<         "given-name": [
+<           "John"
+<         ],
+<         "name": [
+<           "John \n        Doe"
+<         ]
+<       },
+<       "type": [
+<         "h-card"
+<       ]
+<     }
+<   ],
+---
+>   "items": {},

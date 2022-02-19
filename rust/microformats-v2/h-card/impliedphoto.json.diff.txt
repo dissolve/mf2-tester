@@ -1,0 +1,28 @@
+34c34
+<                 "value": "http://example.com/jane.jpeg"
+---
+>                 "src": "http://example.com/jane.jpeg"
+95c95
+<             "value": "http://example.com/jane.jpeg"
+---
+>             "src": "http://example.com/jane.jpeg"
+111c111
+<             "value": "http://example.com/jane.jpeg"
+---
+>             "src": "http://example.com/jane.jpeg"
+127c127
+<             "value": "http://example.com/jane.jpeg"
+---
+>             "src": "http://example.com/jane.jpeg"
+139a140,142
+>         "photo": [
+>           "https://example.com/photo.jpg"
+>         ],
+141c144
+<           "https://example.com"
+---
+>           "https://example.com/"
+154c157
+<           "https://example.com"
+---
+>           "https://example.com/"

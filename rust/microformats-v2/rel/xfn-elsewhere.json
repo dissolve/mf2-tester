@@ -1,0 +1,65 @@
+{
+  "items": {},
+  "rel-urls": {
+    "http://delicious.com/glennjonesnet/": {
+      "rels": [
+        "me"
+      ],
+      "text": "delicious"
+    },
+    "http://github.com/glennjones": {
+      "rels": [
+        "me"
+      ],
+      "text": "github"
+    },
+    "http://lanyrd.com/people/glennjones/": {
+      "rels": [
+        "me"
+      ],
+      "text": "lanyrd"
+    },
+    "http://twitter.com/glennjones": {
+      "rels": [
+        "me"
+      ],
+      "text": "twitter"
+    },
+    "http://www.flickr.com/photos/glennjonesnet/": {
+      "rels": [
+        "me"
+      ],
+      "text": "flickr"
+    },
+    "http://www.linkedin.com/in/glennjones": {
+      "rels": [
+        "me"
+      ],
+      "text": "linkedin"
+    },
+    "http://www.slideshare.net/glennjones/presentations": {
+      "rels": [
+        "me"
+      ],
+      "text": "slideshare"
+    },
+    "https://plus.google.com/u/0/105161464208920272734/about": {
+      "rels": [
+        "me"
+      ],
+      "text": "google+"
+    }
+  },
+  "rels": {
+    "me": [
+      "http://delicious.com/glennjonesnet/",
+      "http://github.com/glennjones",
+      "http://lanyrd.com/people/glennjones/",
+      "http://twitter.com/glennjones",
+      "http://www.flickr.com/photos/glennjonesnet/",
+      "http://www.linkedin.com/in/glennjones",
+      "http://www.slideshare.net/glennjones/presentations",
+      "https://plus.google.com/u/0/105161464208920272734/about"
+    ]
+  }
+}

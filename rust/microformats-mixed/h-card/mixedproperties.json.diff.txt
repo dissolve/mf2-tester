@@ -1,0 +1,29 @@
+4,27d3
+<       "children": [
+<         {
+<           "properties": {
+<             "extended-address": [
+<               "Suite 207"
+<             ],
+<             "locality": [
+<               "San Francisco"
+<             ],
+<             "postal-code": [
+<               "94107"
+<             ],
+<             "region": [
+<               "CA"
+<             ],
+<             "street-address": [
+<               "665 3rd St."
+<             ]
+<           },
+<           "type": [
+<             "h-adr"
+<           ]
+<         }
+<       ],
+28a5,7
+>         "country-name": [
+>           "U.S.A."
+>         ],

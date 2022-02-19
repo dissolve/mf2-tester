@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "properties": {
+        "country-name": [
+          "U.S.A."
+        ],
+        "name": [
+          "Mozilla Foundation"
+        ],
+        "org": [
+          "Mozilla Foundation"
+        ],
+        "url": [
+          "http://mozilla.org/"
+        ]
+      },
+      "type": [
+        "h-card"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

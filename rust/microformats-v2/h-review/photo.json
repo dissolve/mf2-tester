@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "properties": {
+        "name": [
+          "Crepes on Cole"
+        ],
+        "photo": [
+          {
+            "alt": "Crepes on Cole",
+            "src": "http://example.com/images/photo.gif"
+          }
+        ]
+      },
+      "type": [
+        "h-review"
+      ]
+    }
+  ],
+  "rel-urls": {},
+  "rels": {}
+}

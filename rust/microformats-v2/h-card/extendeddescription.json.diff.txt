@@ -1,0 +1,4 @@
+21c21
+<             "value": "http://blog.mozilla.org/press/files/2012/04/mitchell-baker.jpg"
+---
+>             "src": "http://blog.mozilla.org/press/files/2012/04/mitchell-baker.jpg"
